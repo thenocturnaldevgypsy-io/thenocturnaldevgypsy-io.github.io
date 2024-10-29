@@ -117,7 +117,7 @@ If you'd like to create your own AMA repository:
 - Click `Fork` at the top of this page. -->
 
 ## ![SECTION License](https://custom-icon-badges.demolab.com/badge/-License-24292e?logo=file-badge&logoColor=white&labelColor=00416a)
-Distributed under the MIT License by [Abegail Torrendon / thenocturnaldevgypsy](https://github.com/thenocturnaldevgypsy-io).
+Distributed under the MIT License by [Abegail Torrendon / TheNocturnalDevGypsy](https://github.com/thenocturnaldevgypsy-io).
 - You can freely modify and reuse.
 - The original [LICENSE](LICENSE.md) must be included with copies of this software.
 - Please link back (if you can fork, the better) to this repo.
