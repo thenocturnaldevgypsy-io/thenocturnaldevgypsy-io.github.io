@@ -7,6 +7,7 @@
    <img src="https://img.shields.io/badge/Version-0.0.5-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 0.0.5">
    <img src="https://img.shields.io/badge/Lang-HTML%20|%20CSS%20|%20JavaScript-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Lang-HTML|CSS|JavaScript">
    <img src="https://img.shields.io/badge/Framework-Bootstrap-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Framework-Bootstrap">
+   <img src="https://img.shields.io/badge/Database-None-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Database-None">
    <img src="https://img.shields.io/badge/License-MIT-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="License MIT">
    <img src="https://img.shields.io/badge/Last%20Update-20.10.2024-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Last Update 20.10.2024">
    <a href="https://ko-fi.com/thenocturnaldevgypsy">
@@ -14,10 +15,10 @@
    </a>
 </p>
 
-## ![SECTION Changelog](https://custom-icon-badges.demolab.com/badge/-Changelog-24292e?logo=log&logoColor=white&labelColor=00416a)
+## ![SECTION Changelog](https://custom-icon-badges.demolab.com/badge/-Changelog-2471AE?logo=log&logoColor=white&labelColor=2471AE)
 This document contains the complete chronological list of updates and changes to the project
 
-## ![SECTION Changelog under Version 1](https://custom-icon-badges.demolab.com/badge/-Changelog%20under%20Version%201-24292e?logo=flame&logoColor=white&labelColor=2471AE)
+## ![SECTION Changelog under Version 1](https://custom-icon-badges.demolab.com/badge/-Changelog%20under%20Version%201-24292e?logo=flame&logoColor=white&labelColor=00416a)
 
 Version Latest Live URL : https://thenocturnaldevgypsy-io.github.io/
 
