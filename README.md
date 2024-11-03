@@ -49,9 +49,8 @@ phpMyAdmin Version information: 5.1.2
 ```
 **Framework and Tools**
 ```
-- CSS Framework: Bootstrap 5.3.3
-- Icons: Bootstrap Icons 1.11.3 and Lineicons 4.0 (Basic, Free)
-- Font: Ubuntu from Google Fonts
+- Google Font: Ubuntu
+- Libaries: Bootstrap 5.3.3, Bootstrap Icons AOS (Animate on scroll), GLightbox, imagesLoaded, Isotope, purecounterjs, Swiper.js, Typed.js, Waypoint.js (No Framework)
 ```
 
 ## ![SECTION Folders and Files Structure](https://custom-icon-badges.demolab.com/badge/-Folders%20and%20Files%20Structure-2471AE?logo=file-submodule&logoColor=white&labelColor=2471AE)
@@ -64,7 +63,7 @@ project-root/
 │  │  └─ favicons/     # favicons for the website
 │  ├─ css/             # main directory for storing css files
 │  ├─ js/              # main directory for storing js files
-│  └─ vendor/          # main directory for the libraries used from vendors 
+│  └─ library/         # main directory for the framework and libraries used
 ├─ md_assets/          # assets folder for markdown files (documentation)
 ├─ .gitignore          # files ignored by Git
 ├─ CHANGELOG.md        # project changelog documentation
@@ -115,12 +114,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 0.0.5 | 20.10.2024 | [20542f7](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/commit/20542f706869b7a022c4267da02213e81439a92b) for [PR 2](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/pull/2), [Issue 3](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/issues/3), [ec8ecba](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/commit/ec8ecba86151a22cd6e0d47cf87e1dc596eb2ffa) | fix/feat | - Old GitHub account [@thenocturnaldevgypsy](https://github.com/thenocturnaldevgypsy) got flagged for no reason given, recreated the repo to the new account [@thenocturnaldevgypsy-io](https://github.com/thenocturnaldevgypsy-io) [[PR 2](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/pull/2)]<br>- Renamed the repo from `thenocturnaldevgypsy.github.io` to `thenocturnaldevgypsy-io.github.io`<br>- Redeployed at GitHub Pages, Live URL: https://thenocturnaldevgypsy-io.github.io [[Issue 3](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/issues/3)]<br>- Updated the repo's documentation with the updated GitHub URLS except for the links under `CHANGELOG` [[ec8ecba](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/commit/ec8ecba86151a22cd6e0d47cf87e1dc596eb2ffa)].<br>- Details of the whole migration, see GitHub Project: [Migrating @thenocturnaldevgypsy to @thenocturnaldevgypsy-io](https://github.com/users/thenocturnaldevgypsy-io/projects/1/views/1) |
-
-<!-- ## ![SECTION Forking the Repo](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Repo-24292e?logo=repo-forked&logoColor=white&labelColor=00416a)
-
-If you'd like to create your own AMA repository:
-- Click `Fork` at the top of this page. -->
+| 1.0.0 | xx.xx.2024 | []() for [PR ]() | feat | - Loaded all the needed vendor libraries in the `assets` directory |
 
 ## ![SECTION Forking the Repo](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Repo-2471AE?logo=repo-forked&logoColor=white&labelColor=2471AE)
 
