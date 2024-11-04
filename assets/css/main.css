@@ -12,44 +12,44 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Baloo 2", sans-serif;
-  --heading-font: "Baloo 2", sans-serif;
-  --nav-font:"Baloo 2", sans-serif;
+  --default-font: "Baloo 2", sans-serif; letter-spacing: 1px;
+  --heading-font: "Baloo 2", sans-serif; letter-spacing: 1px;
+  --nav-font:"Baloo 2", sans-serif; letter-spacing: 1px;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #000000; /* Background color for the entire website, including individual sections */
+  --background-color: #1D2C3D; /* Background color for the entire website, including individual sections */
   --default-color: #fafafa; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #CCDBEC; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #70c3ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #1a1a1a; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #000000; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --contrast-color: #1D2C3D; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #fafafa;  /* The default color of the main navmenu links */
-  --nav-hover-color: #CCDBEC; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #1a1a1a; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #1a1a1a; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-hover-color: #70c3ff; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #1D2C3D; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #1D2C3D; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #fafafa; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #CCDBEC; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #70c3ff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #1a1a1a;
+  --background-color: #1D2C3D;
   --surface-color: #343434;
 }
 
 .dark-background {
-  --background-color: rgba(15, 15, 15, 0.975);
+  --background-color: #1D2C3D;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #292929f9;
-  --contrast-color: #000000;
+  --contrast-color: #1D2C3D;
 }
 
 /* Smooth scroll */
@@ -102,7 +102,7 @@ h6 {
 .php-email-form .sent-message {
   display: none;
   color: #ffffff;
-  background: #CCDBEC;
+  background: #70c3ff;
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
@@ -174,7 +174,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: rgba(0, 0, 0, 0.8);
+  --background-color: rgba(0, 0, 0, 0.4);
 }
 
 /*--------------------------------------------------------------
@@ -211,6 +211,7 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-color);
     font-size: 15px;
+    letter-spacing: 1px;
     padding: 0 2px;
     font-family: var(--nav-font);
     font-weight: 400;
@@ -225,6 +226,7 @@ h6 {
   .navmenu a i,
   .navmenu a:focus i {
     font-size: 12px;
+    letter-spacing: 1px;
     line-height: 0;
     margin-left: 5px;
     transition: 0.3s;
@@ -350,6 +352,7 @@ h6 {
     padding: 10px 20px;
     font-family: var(--nav-font);
     font-size: 17px;
+    letter-spacing: 1px;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -361,6 +364,7 @@ h6 {
   .navmenu a i,
   .navmenu a:focus i {
     font-size: 12px;
+    letter-spacing: 1px;
     line-height: 0;
     margin-left: 5px;
     width: 30px;
@@ -451,7 +455,7 @@ h6 {
 }
 
 .footer h3 {
-  font-size: 36px;
+  font-size: 20px;
   font-weight: 700;
   position: relative;
   padding: 0;
@@ -459,29 +463,29 @@ h6 {
 }
 
 .footer p {
-  font-size: 15;
-  font-style: italic;
+  font-size: 15px;
   padding: 0;
   margin: 0 0 30px 0;
 }
 
 .footer .social-links {
-  margin: 0 0 30px 0;
+  margin: 0 0 25px 0;
 }
 
 .footer .social-links a {
   font-size: 16px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 2px;
+  padding-top: 2px;
   background: var(--accent-color);
   color: var(--contrast-color);
-  line-height: 1;
   margin: 0 4px;
-  border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
   transition: 0.3s;
 }
 
@@ -490,15 +494,17 @@ h6 {
   text-decoration: none;
 }
 
-.footer .copyright {
-  padding-top: 25px;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-}
-
-.footer .credits {
-  font-size: 13px;
-  padding-top: 5px;
-}
+@media (max-width: 768px) {
+   .footer h3 {
+      font-size: 18px;
+   }
+   .footer p {
+      font-size: 12px;
+   }
+   .footer .social-links {
+      margin: 0 0 40px 0;
+    }
+ }
 
 /*--------------------------------------------------------------
 # Preloader
@@ -711,9 +717,17 @@ section,
 
 .hero h2 {
   margin: 0;
-  font-size: 64px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 60px;
   font-weight: 700;
 }
+
+.hero h3 {
+   margin: 0;
+   padding-bottom: 10px;
+   font-size: 30px;
+ }
 
 .hero p {
   margin: 5px 0 0 0;
@@ -732,7 +746,7 @@ section,
 .hero .social-links a {
   background-color: color-mix(in srgb, var(--default-color), transparent 90%);
   color: var(--default-color);
-  font-size: 14px;
+  font-size: 20px;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -740,6 +754,7 @@ section,
   align-items: center;
   justify-content: center;
   margin-right: 20px;
+  margin-bottom: 10px;
   transition: 0.3s;
 }
 
@@ -749,11 +764,17 @@ section,
 
 @media (max-width: 768px) {
   .hero h2 {
-    font-size: 32px;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    font-size: 24px;
   }
 
+  .hero h3 {
+   font-size: 15px;
+ }
+
   .hero p {
-    font-size: 20px;
+    font-size: 13px;
   }
 }
 
