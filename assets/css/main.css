@@ -19,7 +19,7 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #1D2C3D; /* Background color for the entire website, including individual sections */
+  --background-color: #000000; /* Background color for the entire website, including individual sections */
   --default-color: #fafafa; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #70c3ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
@@ -602,6 +602,7 @@ h6 {
 .page-title .heading h1 {
   font-size: 38px;
   font-weight: 700;
+  color: #70c3ff;
 }
 
 .page-title nav {
@@ -785,6 +786,7 @@ section,
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
+  color: #70c3ff;
 }
 
 .about .content ul {
@@ -1026,6 +1028,7 @@ section,
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: #70c3ff;
 }
 
 .resume .resume-item {
@@ -1046,7 +1049,7 @@ section,
 
 .resume .resume-item h5 {
   font-size: 16px;
-  padding: 5px 15px;
+  /* padding: 5px 15px; */
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
