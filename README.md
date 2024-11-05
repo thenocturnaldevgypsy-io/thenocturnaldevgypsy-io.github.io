@@ -50,7 +50,7 @@ phpMyAdmin Version information: 5.1.2
 **Framework and Tools**
 ```
 - Google Font: Ubuntu
-- Libaries: Bootstrap 5.3.3, Bootstrap Icons AOS (Animate on scroll), GLightbox, imagesLoaded, Isotope, purecounterjs, Swiper.js, Typed.js, Waypoint.js (No Framework)
+- Libaries: Bootstrap 5.3.3, Bootstrap Icons, FontAwesome 6 (Free),  AOS (Animate on scroll), GLightbox, imagesLoaded, Isotope, purecounterjs, Swiper.js, Typed.js, Waypoint.js (No Framework)
 ```
 
 ## ![SECTION Folders and Files Structure](https://custom-icon-badges.demolab.com/badge/-Folders%20and%20Files%20Structure-2471AE?logo=file-submodule&logoColor=white&labelColor=2471AE)
