@@ -1,6 +1,6 @@
 <!-- <p align="center"><img src="/md_assets/octocat.gif" alt="Logo" width="130" height="130"></p> --> 
 <h3 align="center">thenocturnaldevgypsy-io.github.io</h3>
-<p align="center"><em>Personal {static} Webspace of TheNocturnalDevGypsy [ Abegail Bautista Torrendon ]</em></p>
+<p align="center"><em>TheNocturnalDevGypsy : Porfolio and webspace of Abegail Bautista Torrendon</em></p>
 <p align="center"><strong>You like the Repo? Don't forget to 🌟, 👁️, 🔱 and ❤️!</strong></p>
 <p align="center">
    <img src="https://img.shields.io/badge/Purpose-EXPLORING-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Purpose-EXPLORING">
@@ -17,7 +17,7 @@
 
 ## ![SECTION About this Repository](https://custom-icon-badges.demolab.com/badge/-About%20this%20Repository-2471AE?logo=repo&logoColor=white&labelColor=2471AE)
 
-`thenocturnaldevgypsy-io.github.io`  is my Public Repo to host the Personal {static} Webspace of TheNocturnalDevGypsy [ Abegail Bautista Torrendon ]
+`thenocturnaldevgypsy-io.github.io`  is my Public Repo to host TheNocturnalDevGypsy : Porfolio and webspace of Abegail Bautista Torrendon
 
 ![SUBSECTION Live URLs](https://custom-icon-badges.demolab.com/badge/-Live%20URLs-24292e?logo=globe&logoColor=white&labelColor=00416a)
 
@@ -50,7 +50,7 @@ phpMyAdmin Version information: 5.1.2
 **Framework and Tools**
 ```
 - Google Font: Ubuntu
-- Libaries: Bootstrap 5.3.3, Bootstrap Icons, FontAwesome 6 (Free),  AOS (Animate on scroll), GLightbox, imagesLoaded, Isotope, purecounterjs, Swiper.js, Typed.js, Waypoint.js (No Framework)
+- Libaries: Bootstrap 5.3.3, Bootstrap Icons, FontAwesome 6 Icons (Free), AOS (Animate on scroll), GLightbox, imagesLoaded, Isotope, purecounterjs, Swiper.js, Typed.js, Waypoint.js (No Framework)
 ```
 
 ## ![SECTION Folders and Files Structure](https://custom-icon-badges.demolab.com/badge/-Folders%20and%20Files%20Structure-2471AE?logo=file-submodule&logoColor=white&labelColor=2471AE)
@@ -73,12 +73,27 @@ project-root/
 | Description | File/s |
 | ------------- | ------------- |
 | Home Page of the template | `index.html` |
-| Main CSS of the template | `assets/css/main-styles.css` |
-| Main JS of the template | `assets/js/main-core.js` |
+| Main CSS of the template | `assets/css/main.styles.css` |
+| Main JS of the template | `assets/js/main.core.js` |
 
 ## ![SECTION Contents and Breakdown](https://custom-icon-badges.demolab.com/badge/-Contents%20and%20Breakdown-2471AE?logo=book&logoColor=white&labelColor=2471AE)
 
-In progress ...
+```
+Home/                               #
+│   
+About/                              #
+│   
+Education/                          #
+│   
+Experience/                         #
+│   
+Portfolio/                          #
+│   
+Services and Shops/                 #
+│   
+Contact/                            #
+
+```
 <!-- - ✅ Under ...
 - 🚧 Under ...
 
@@ -86,23 +101,9 @@ In progress ...
 | ------------- | ------------- | ------------- |
 | [xxx](https://github.com/thenocturnaldevgypsy) | XXX | What was done | -->
 
-## ![SECTION Sitemap](https://custom-icon-badges.demolab.com/badge/-Sitemap-2471AE?logo=map&logoSource=feather&logoColor=white&labelColor=2471AE)
+<!-- ## ![SECTION Sitemap](https://custom-icon-badges.demolab.com/badge/-Sitemap-2471AE?logo=map&logoSource=feather&logoColor=white&labelColor=2471AE) -->
 
-In progress ...
-<!-- ```
-Home/                         #
-├── Page 1.1/                 # 
-│   ├── Page 1.1.1/           # 
-│   │   └── Page 1.1.1.1/     # 
-│   ├── Page 1.1.2/           #
-│   ├── Page 1.1.3/           #
-│   └── Page 1.1.4/           #
-About Us                      #
-├── Page 2.1/                 # 
-├── Page 2.2/                 # 
-├── Page 2.3/                 # 
-└── Page 2.4/                 # 
-``` -->
+
 
 ## ![SECTION Roadmap](https://custom-icon-badges.demolab.com/badge/-Roadmap-2471AE?logo=tasklist&logoColor=white&labelColor=2471AE)
 See the [open issues](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/issues) and the [project](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/projects?query=is%3Aopen)'s Backlog  for the list of proposed features (and known issues).
@@ -114,7 +115,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1.0.0 | xx.xx.2024 | []() for [PR ]() | feat | - Loaded all the needed vendor libraries in the `assets` directory |
+| 1.0.0 | xx.xx.2024 | []() for [PR ]() | feat | - Loaded all the needed vendor libraries in the `assets` directory<br>- Created the needed template (`main.styles.css` and `main.core.js`) using Bootstrap<br>- Done with the following static pages: `index.html`, `education.html`<br>- Updated the repo's `README.md` |
 
 ## ![SECTION Forking the Repo](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Repo-2471AE?logo=repo-forked&logoColor=white&labelColor=2471AE)
 
