@@ -89,21 +89,41 @@ project-root/
 ## ![SECTION Contents and Breakdown](https://custom-icon-badges.demolab.com/badge/-Contents%20and%20Breakdown-2471AE?logo=book&logoColor=white&labelColor=2471AE)
 
 ```
-Home/                               #
-│   
-About/                              #
-│   
-Education/                          #
-│   
-Experience/                         #
-│   
-Portfolio/                          #
-│   
-Services and Shops/                 #
-│   
-Contact/                            #
+Home/
 
+About/
+  ├─ Introduction/
+  ├─ Quick Metrics/
+  ├─ Skills/
+  ├─ Interest/
+  └─ Testimonials/
+
+Education/
+  ├─ Formal Education/
+  ├─ Certificates-Licenses/
+  └─ Continuous Learning/
+ 
+Experience/
+  ├─ Project & Product Management, Development & Tech/
+  └─ Academic & Learning Development/
+   
+Portfolio/
+  ├─ Portfolio-Public/
+  │  └─ Portfolio Details/     
+  └─ Portfolio-Private/
+     └─ Portfolio Details/     
+  
+Services and Shops/
+   
+Contact/
 ```
+- **Home**: Simple splash screen of the website
+- **About**: About the site owner
+- **Education**: Records of formal education to professional certifications and online courses taken
+- **Experience**: Records of project management, product ownership, software development and academia experiences
+- **Portfolio**: Portfolio, for Public and Private View
+- **Services and Shops**: Services offered, hiring and shops details
+- **Contact**: Contact details, SNS and link to AMA
 <!-- - ✅ Under ...
 - 🚧 Under ...
 
