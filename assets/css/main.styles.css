@@ -294,7 +294,7 @@ h6 {
     color: var(--nav-dropdown-color);
     padding: 10px 20px;
     font-family: var(--nav-font);
-    font-size: 17px;
+    font-size: 14px;
     letter-spacing: 1px;
     font-weight: 500;
     display: flex;
@@ -537,7 +537,7 @@ h6 {
 }
 
 .page-title .heading {
-  padding: 160px 0 80px 0;
+  padding: 130px 0 80px 0;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
@@ -659,61 +659,24 @@ section,
   z-index: 3;
 }
 
-/* try start */
-.hero .section-title {
-   padding-bottom: 60px;
-   position: relative;
- }
- 
- .hero .section-title h2 {
-   font-size: 14px;
-   font-weight: 500;
-   padding: 0;
-   line-height: 1px;
-   margin: 0;
-   letter-spacing: 1.5px;
-   text-transform: uppercase;
-   color: color-mix(in srgb, var(--default-color), transparent 50%);
-   position: relative;
- }
- 
- .hero .section-title h2::after {
-   content: "";
-   width: 120px;
-   height: 1px;
-   display: inline-block;
-   background: var(--accent-color);
-   margin: 4px 10px;
- }
- 
- .hero .section-title div {
-   color: var(--heading-color);
-   margin: 0;
-   margin: 0;
-   font-size: 28px;
-   font-weight: 700;
-   text-transform: uppercase;
-   font-family: var(--heading-font);
- }
-/* try end */
-
 .hero h2 {
   margin: 0;
   padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 60px;
+  padding-bottom: 5px;
+  font-size: 45px;
   font-weight: 700;
+  /* font-weight: 700; */
 }
 
 .hero h3 {
    margin: 0;
-   padding-bottom: 10px;
-   font-size: 30px;
+   padding-bottom: 15px;
+   font-size: 20px;
  }
 
 .hero p {
   margin: 5px 0 0 0;
-  font-size: 26px;
+  font-size: 25px;
 }
 
 .hero p span {
@@ -744,20 +707,30 @@ section,
   background-color: var(--accent-color);
 }
 
+.hero .footer-text {
+   padding-top: 40px;
+   font-size: 14px;
+}
+
 @media (max-width: 768px) {
   .hero h2 {
     margin-top: 60px;
-    padding-bottom: 30px;
-    font-size: 24px;
+    padding-bottom: 10px;
+    font-size: 20px;
   }
 
   .hero h3 {
-   font-size: 15px;
+   font-size: 14px;
  }
 
   .hero p {
     font-size: 13px;
   }
+
+  .hero .footer-text {
+   padding-top: 40px;
+   font-size: 12px;
+}
 }
 
 /*--------------------------------------------------------------

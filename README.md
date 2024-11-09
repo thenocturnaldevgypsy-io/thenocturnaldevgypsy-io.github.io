@@ -4,7 +4,7 @@
 <p align="center"><strong>You like the Repo? Don't forget to 🌟, 👁️, 🔱 and ❤️!</strong></p>
 <p align="center">
    <img src="https://img.shields.io/badge/Purpose-EXPLORING-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Purpose-EXPLORING">
-   <img src="https://img.shields.io/badge/Version-0.0.5-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 0.0.5">
+   <img src="https://img.shields.io/badge/Version-1.0.0-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 1.0.0">
    <img src="https://img.shields.io/badge/Lang-HTML%20|%20CSS%20|%20JavaScript-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Lang-HTML|CSS|JavaScript">
    <img src="https://img.shields.io/badge/Framework-Bootstrap-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Framework-Bootstrap">
    <img src="https://img.shields.io/badge/Database-None-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Database-None">
@@ -90,6 +90,8 @@ project-root/
 
 ```
 Home/
+  ├─ Copyrights and Notes/
+  └─ Social Network Details/ 
 
 About/
   ├─ Introduction/
@@ -118,15 +120,16 @@ Services and Shops/
   │  └─ Service Details/     
   └─ Hire, Shops and Support/
 
+Contact/
+   ├─ Email Address/
+   ├─ Telegram Bot/
+   └─ GitHub AMA Repo/
+
 Footer/
   ├─ Copyrights and Notes/
-  └─ Contact Details/
-     ├─ Email Address/
-     ├─ Telegram Bot/
-     ├─ GitHub AMA Repo/
-     └─ Social Network Details/    
+  └─ Social Network Details/
 ```
-- **Home**: Simple splash screen of the website
+- **Home**: Simple splash screen of the website, Copyrights, Notes and Social Network Details
    - HTML files: `index.html`
 - **About**: About the site owner
    - HTML files: `about.html`
@@ -146,7 +149,8 @@ Footer/
    - HTML files: 
       - `services-shop-hire-me.html`
       - `service-details.html`
-- **Footer**: Copyrights, Notes and Contact Details (Email Address, Telegram Bot, GitHub AMA Repo, Social Network Details). Applied to all pages.
+- **Contact**: links to Email Address, Telegram Bot and GitHub AMA Repo
+- **Footer**: Copyrights, Notes and Social Network Details. (except Home (`index.html`))
 
 
 ## ![SECTION Roadmap](https://custom-icon-badges.demolab.com/badge/-Roadmap-2471AE?logo=tasklist&logoColor=white&labelColor=2471AE)
@@ -159,7 +163,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1.0.0 | xx.xx.2024 | []() for [PR ]() | feat | - Loaded all the needed vendor libraries in the `assets` directory<br>- Created the needed template (`main.styles.css` and `main.core.js`) using Bootstrap<br>- Done with the following static pages: `index.html`, `education.html`<br>- Updated the repo's `README.md` |
+| 1.0.0 | xx.xx.2024 | []() for [PR ]() | feat | - Loaded all the needed vendor libraries in the `assets` directory<br>- Created the needed template (`main.styles.css` and `main.core.js`) using Bootstrap<br>- Done with coding the static page templates<br>- Updated the repo's `README.md` |
 
 ## ![SECTION Forking the Repo](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Repo-2471AE?logo=repo-forked&logoColor=white&labelColor=2471AE)
 
