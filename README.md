@@ -86,7 +86,7 @@ project-root/
 | Main CSS of the template | `assets/css/main.styles.css` |
 | Main JS of the template | `assets/js/main.core.js` |
 
-## ![SECTION Contents and Breakdown](https://custom-icon-badges.demolab.com/badge/-Contents%20and%20Breakdown-2471AE?logo=book&logoColor=white&labelColor=2471AE)
+## ![SECTION Sitemap, Contents and Breakdown](https://custom-icon-badges.demolab.com/badge/-Sitemap,%20Contents%20and%20Breakdown-2471AE?logo=map&logoSource=feather&logoColor=white&labelColor=2471AE) 
 
 ```
 Home/
@@ -114,25 +114,39 @@ Portfolio/
      └─ Portfolio Details/     
   
 Services and Shops/
-   
-Contact/
+  ├─ Services/
+  │  └─ Service Details/     
+  └─ Hire, Shops and Support/
+
+Footer/
+  ├─ Copyrights and Notes/
+  └─ Contact Details/
+     ├─ Email Address/
+     ├─ Telegram Bot/
+     ├─ GitHub AMA Repo/
+     └─ Social Network Details/    
 ```
 - **Home**: Simple splash screen of the website
+   - HTML files: `index.html`
 - **About**: About the site owner
+   - HTML files: `about.html`
 - **Education**: Records of formal education to professional certifications and online courses taken
+   - HTML files: `education.html`
 - **Experience**: Records of project management, product ownership, software development and academia experiences
+   - HTML files: 
+      - `experience-projectmanagement-product-development.html`
+      - `experience-academia-learning.html`
 - **Portfolio**: Portfolio, for Public and Private View
+   - HTML files: 
+      - `portfolio-public.html`
+      - `portfolio-public-type-item-details.html`
+      - `portfolio-private.html`
+      - `portfolio-private-type-item-detail.html`
 - **Services and Shops**: Services offered, hiring and shops details
-- **Contact**: Contact details, SNS and link to AMA
-<!-- - ✅ Under ...
-- 🚧 Under ...
-
-| Theme | Number of Variants | Description |
-| ------------- | ------------- | ------------- |
-| [xxx](https://github.com/thenocturnaldevgypsy) | XXX | What was done | -->
-
-<!-- ## ![SECTION Sitemap](https://custom-icon-badges.demolab.com/badge/-Sitemap-2471AE?logo=map&logoSource=feather&logoColor=white&labelColor=2471AE) -->
-
+   - HTML files: 
+      - `services-shop-hire-me.html`
+      - `service-details.html`
+- **Footer**: Copyrights, Notes and Contact Details (Email Address, Telegram Bot, GitHub AMA Repo, Social Network Details). Applied to all pages.
 
 
 ## ![SECTION Roadmap](https://custom-icon-badges.demolab.com/badge/-Roadmap-2471AE?logo=tasklist&logoColor=white&labelColor=2471AE)
