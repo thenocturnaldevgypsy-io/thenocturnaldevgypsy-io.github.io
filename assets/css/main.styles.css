@@ -222,7 +222,7 @@ h6 {
 
   .navmenu .dropdown ul a {
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: 14px;
     text-transform: none;
     color: var(--nav-dropdown-color);
   }
@@ -534,18 +534,24 @@ h6 {
   color: var(--default-color);
   background-color: var(--background-color);
   position: relative;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .page-title .heading {
-  padding: 130px 0 80px 0;
+  padding: 120px 0 0 0;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .page-title .heading h1 {
-  font-size: 38px;
+  font-size: 28px;
   font-weight: 700;
   color: #70c3ff;
 }
+
+.page-title .heading h2 {
+   font-size: 17px;
+ }
 
 .page-title nav {
   background-color: color-mix(in srgb, var(--default-color), transparent 90%);
@@ -728,7 +734,7 @@ section,
   }
 
   .hero .footer-text {
-   padding-top: 40px;
+   padding-top: 50px;
    font-size: 12px;
 }
 }
@@ -973,8 +979,52 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Resume Section
+# Resume & Experience Sections
 --------------------------------------------------------------*/
+.resume .resume-section-title {
+   padding-left: 0px;
+   padding-bottom: 20px;
+   padding-top: 30px;
+   position: relative;
+   letter-spacing: 1px;
+ }
+ 
+ .resume .resume-section-title h3 {
+   font-size: 15px;
+   font-weight: 500;
+   padding: 0;
+   line-height: 1px;
+   margin: 0;
+   color: color-mix(in srgb, var(--default-color), transparent 50%);
+   position: relative;
+   text-transform: uppercase;
+ }
+ 
+ .resume .resume-section-title h3::after {
+   content: "";
+   width: 120px;
+   height: 1px;
+   display: inline-block;
+   background: var(--accent-color);
+   margin: 4px 10px;
+ }
+ 
+ .resume .resume-section-title div {
+   color: var(--accent-color);
+   margin: 0;
+   padding: 0;
+   font-size: 22px;
+   font-weight: 700;
+   font-family: var(--heading-font);
+ }
+
+ .resume .resume-section-title p {
+   padding-top: 10px;
+   font-size: 14px;
+   letter-spacing: 1px;
+ }
+ 
+
 .resume .resume-title {
   color: var(--heading-color);
   font-size: 26px;
@@ -989,6 +1039,8 @@ section,
   margin-top: -2px;
   border-left: 2px solid var(--accent-color);
   position: relative;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .resume .resume-item h4 {
@@ -996,8 +1048,8 @@ section,
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  margin-bottom: 10px;
+  color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  margin-bottom: 12px;
 }
 
 .resume .resume-item h5 {
@@ -1005,7 +1057,7 @@ section,
   /* padding: 5px 15px; */
   display: inline-block;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .resume .resume-item ul {
