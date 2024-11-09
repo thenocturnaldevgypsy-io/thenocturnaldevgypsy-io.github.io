@@ -1,10 +1,9 @@
-/**
-* Template Name: Personal
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+/** ============================================================================================================================
+* Version and Updated: Version 1.0.0, Nov 5 2024 with Bootstrap v5.3.3
+* Author: github.com/TheNocturnalDevGypsy-io [ Abegail Baustista Torrendon ]
+* GitHub Source: https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io
+* License: MIT License - https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/blob/master/LICENSE
+============================================================================================================================== **/
 
 (function() {
   "use strict";

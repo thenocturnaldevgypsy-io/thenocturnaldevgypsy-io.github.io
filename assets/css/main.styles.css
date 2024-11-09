@@ -1,15 +1,10 @@
-/** 
-* Template Name: Personal
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+/** ============================================================================================================================
+* Version and Updated: Version 1.0.0, Nov 5 2024 with Bootstrap v5.3.3
+* Author: github.com/TheNocturnalDevGypsy-io [ Abegail Baustista Torrendon ]
+* GitHub Source: https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io
+* License: MIT License - https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/blob/master/LICENSE
+============================================================================================================================== **/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Baloo 2", sans-serif; letter-spacing: 1px;
@@ -210,7 +205,7 @@ h6 {
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-color);
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 1px;
     padding: 0 2px;
     font-family: var(--nav-font);
@@ -455,7 +450,7 @@ h6 {
 }
 
 .footer h3 {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 700;
   position: relative;
   padding: 0;
@@ -463,19 +458,19 @@ h6 {
 }
 
 .footer p {
-  font-size: 15px;
-  padding: 0;
+  font-size: 14px;
+  padding-bottom: 10px;
   margin: 0 0 30px 0;
 }
 
 .footer .social-links {
-  margin: 0 0 25px 0;
+  margin: 0 0 20px 0;
 }
 
 .footer .social-links a {
   font-size: 16px;
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -484,7 +479,6 @@ h6 {
   padding-top: 2px;
   background: var(--accent-color);
   color: var(--contrast-color);
-  /* line-height: 1; */
   margin: 0 4px;
   text-align: center;
   transition: 0.3s;
@@ -497,13 +491,13 @@ h6 {
 
 @media (max-width: 768px) {
    .footer h3 {
-      font-size: 18px;
+      font-size: 17px;
    }
    .footer p {
-      font-size: 12px;
+      font-size: 14px;
    }
    .footer .social-links {
-      margin: 0 0 40px 0;
+      margin: 0 0 43px 0;
     }
  }
 
@@ -716,6 +710,44 @@ section,
   position: relative;
   z-index: 3;
 }
+
+/* try start */
+.hero .section-title {
+   padding-bottom: 60px;
+   position: relative;
+ }
+ 
+ .hero .section-title h2 {
+   font-size: 14px;
+   font-weight: 500;
+   padding: 0;
+   line-height: 1px;
+   margin: 0;
+   letter-spacing: 1.5px;
+   text-transform: uppercase;
+   color: color-mix(in srgb, var(--default-color), transparent 50%);
+   position: relative;
+ }
+ 
+ .hero .section-title h2::after {
+   content: "";
+   width: 120px;
+   height: 1px;
+   display: inline-block;
+   background: var(--accent-color);
+   margin: 4px 10px;
+ }
+ 
+ .hero .section-title div {
+   color: var(--heading-color);
+   margin: 0;
+   margin: 0;
+   font-size: 28px;
+   font-weight: 700;
+   text-transform: uppercase;
+   font-family: var(--heading-font);
+ }
+/* try end */
 
 .hero h2 {
   margin: 0;
@@ -1449,53 +1481,4 @@ section,
 
 .contact .info-item .social-links a:hover {
   color: var(--accent-color);
-}
-
-.contact .php-email-form {
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  margin-top: 30px;
-}
-
-@media (max-width: 575px) {
-  .contact .php-email-form {
-    padding: 20px;
-  }
-}
-
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email],
-.contact .php-email-form textarea {
-  color: var(--default-color);
-  background-color: color-mix(in srgb, var(--background-color), transparent 50%);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-  font-size: 14px;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 0;
-}
-
-.contact .php-email-form input[type=text]:focus,
-.contact .php-email-form input[type=email]:focus,
-.contact .php-email-form textarea:focus {
-  border-color: var(--accent-color);
-}
-
-.contact .php-email-form input[type=text]::placeholder,
-.contact .php-email-form input[type=email]::placeholder,
-.contact .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.contact .php-email-form button[type=submit] {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  border: 0;
-  padding: 10px 30px;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
