@@ -47,10 +47,20 @@ PHP version: 8.3.1
 Database client version: libmysql - mysqlnd 8.3.1 
 phpMyAdmin Version information: 5.1.2
 ```
-**Framework and Tools**
+**Framework, Libraries and Tools**
 ```
-- Google Font: Ubuntu
-- Libaries: Bootstrap 5.3.3, Bootstrap Icons, FontAwesome 6 Icons (Free), AOS (Animate on scroll), GLightbox, imagesLoaded, Isotope, purecounterjs, Swiper.js, Typed.js, Waypoint.js (No Framework)
+- Bootstrap 5.3.3 https://github.com/twbs/bootstrap
+- Google Font: Baloo 2 https://fonts.google.com/specimen/Baloo+2?query=baloo
+- Bootstrap Icons https://github.com/twbs/icons
+- FontAwesome 6 Icons (Free) https://github.com/FortAwesome/Font-Awesome
+- AOS (Animate on scroll) https://github.com/michalsnik/aos
+- GLightbox https://github.com/biati-digital/glightbox
+- imagesLoaded https://github.com/desandro/imagesloaded
+- Isotope https://github.com/metafizzy/isotope
+- purecounterjs https://github.com/srexi/purecounterjs
+- Swiper.js https://github.com/nolimits4web/swiper
+- Typed.js https://github.com/mattboldt/typed.js
+- Waypoint.js (No Framework) https://github.com/imakewebthings/waypoints
 ```
 
 ## ![SECTION Folders and Files Structure](https://custom-icon-badges.demolab.com/badge/-Folders%20and%20Files%20Structure-2471AE?logo=file-submodule&logoColor=white&labelColor=2471AE)
