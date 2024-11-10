@@ -14,11 +14,11 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #0e141d; /* Background color for the entire website, including individual sections */
+  --background-color: #111924; /* Background color for the entire website, including individual sections */
   --default-color: #fafafa; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #70c3ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #1c2533; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --surface-color: #1a2029; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #1D2C3D; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
@@ -26,8 +26,8 @@
 :root {
   --nav-color: #fafafa;  /* The default color of the main navmenu links */
   --nav-hover-color: #70c3ff; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #1c2533; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #1c2533; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-mobile-background-color: #1a2029; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #1a2029; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #fafafa; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #70c3ff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
@@ -41,7 +41,7 @@
 
 .dark-background {
   /* --background-color: rgba(15, 15, 15, 0.975); */
-  --background-color: #0e141d !important;
+  --background-color: #111924 !important;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #292929f9;
@@ -685,6 +685,7 @@ section,
    margin: 0;
    padding-bottom: 15px;
    font-size: 20px;
+   color: var(--accent-color) !important;
  }
 
 .hero p {
@@ -1195,7 +1196,7 @@ section,
 .services .service-item h3 {
   font-weight: 700;
   margin: 10px 0 15px 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .services .service-item p {
@@ -1229,6 +1230,49 @@ section,
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
+.service-details .services-section-title {
+   padding-left: 0px;
+   padding-bottom: 20px;
+   position: relative;
+   letter-spacing: 1px;
+ }
+ 
+ .service-details .services-section-title h3 {
+   font-size: 15px;
+   font-weight: 500;
+   padding: 0;
+   line-height: 1px;
+   margin: 0;
+   color: color-mix(in srgb, var(--default-color), transparent 50%);
+   position: relative;
+   text-transform: uppercase;
+ }
+ 
+ .service-details .services-section-title h3::after {
+   content: "";
+   width: 120px;
+   height: 1px;
+   display: inline-block;
+   background: var(--accent-color);
+   margin: 4px 10px;
+ }
+ 
+ .service-details .services-section-title div {
+   color: var(--accent-color);
+   margin: 0;
+   padding: 0;
+   font-size: 22px;
+   font-weight: 700;
+   font-family: var(--heading-font);
+ }
+
+ .service-details .services-section-title p {
+   padding-top: 10px;
+   font-size: 14px;
+   letter-spacing: 1px;
+ }
+
+
 .service-details .service-accent  {
    color: var(--accent-color) !important;
 }
@@ -1248,11 +1292,13 @@ section,
   margin: 20px 0;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   transition: 0.3s;
+  font-size: 14px;
 }
 
 .service-details .services-list a.active {
   color: var(--heading-color);
   font-weight: 700;
+  font-size: 14px;
   border-color: var(--accent-color);
 }
 
@@ -1310,7 +1356,7 @@ section,
   cursor: pointer;
   display: inline-block;
   padding: 0;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
   margin: 0 10px;
   line-height: 1;
@@ -1363,7 +1409,7 @@ section,
   font-weight: 400;
   color: #ffffff;
   display: inline-block;
-  background-color: var(--accent-color);
+  background-color: var(--surface-color);
 }
 
 .portfolio .portfolio-content .portfolio-info p {
@@ -1373,30 +1419,29 @@ section,
   display: inline-block;
   left: 0;
   right: 0;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.8);
 }
 
-.portfolio .portfolio-content .portfolio-info .preview-link,
 .portfolio .portfolio-content .portfolio-info .details-link {
-  position: absolute;
-  left: calc(50% - 40px);
-  font-size: 26px;
-  top: calc(50% - 14px);
-  color: #fff;
-  transition: 0.3s;
-  line-height: 1.2;
-}
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 40px;
+   color: #fff;
+   transition: 0.3s;
+   line-height: 1.2;
+ }
 
-.portfolio .portfolio-content .portfolio-info .preview-link:hover,
 .portfolio .portfolio-content .portfolio-info .details-link:hover {
   color: var(--accent-color);
 }
 
 .portfolio .portfolio-content .portfolio-info .details-link {
   left: 50%;
-  font-size: 34px;
+  font-size: 40px;
   line-height: 0;
 }
 
@@ -1468,58 +1513,4 @@ section,
 .portfolio-details .portfolio-description p {
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
-}
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
-
-/*--------------------------------------------------------------
-# Contact Section
---------------------------------------------------------------*/
-.contact .info-item {
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  padding: 20px 30px;
-}
-
-.contact .info-item .icon {
-  color: var(--contrast-color);
-  background-color: var(--accent-color);
-  width: 56px;
-  height: 56px;
-  font-size: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.3s ease-in-out;
-  border-radius: 50%;
-  margin-right: 15px;
-}
-
-.contact .info-item h3 {
-  font-size: 18px;
-  font-weight: 700;
-  margin: 0 0 2px 0;
-}
-
-.contact .info-item p {
-  padding: 0;
-  margin-bottom: 0;
-  font-size: 14px;
-}
-
-.contact .info-item .social-links a {
-  font-size: 24px;
-  display: inline-block;
-  line-height: 1;
-  margin: 4px 6px 0 0;
-  transition: 0.3s;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-}
-
-.contact .info-item .social-links a:hover {
-  color: var(--accent-color);
 }

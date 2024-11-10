@@ -54,7 +54,6 @@ phpMyAdmin Version information: 5.1.2
 - Bootstrap Icons https://github.com/twbs/icons
 - FontAwesome 6 Icons (Free) https://github.com/FortAwesome/Font-Awesome
 - AOS (Animate on scroll) https://github.com/michalsnik/aos
-- GLightbox https://github.com/biati-digital/glightbox
 - imagesLoaded https://github.com/desandro/imagesloaded
 - Isotope https://github.com/metafizzy/isotope
 - purecounterjs https://github.com/srexi/purecounterjs
