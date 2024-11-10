@@ -1272,7 +1272,6 @@ section,
    letter-spacing: 1px;
  }
 
-
 .service-details .service-accent  {
    color: var(--accent-color) !important;
 }
@@ -1456,6 +1455,52 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
+.portfolio-details .portfolio-section-title {
+   padding-left: 0px;
+   padding-bottom: 20px;
+   position: relative;
+   letter-spacing: 1px;
+ }
+ 
+ .portfolio-details .portfolio-section-title h3 {
+   font-size: 15px;
+   font-weight: 500;
+   padding: 0;
+   line-height: 1px;
+   margin: 0;
+   color: color-mix(in srgb, var(--default-color), transparent 50%);
+   position: relative;
+   text-transform: uppercase;
+ }
+ 
+ .portfolio-details .portfolio-section-title h3::after {
+   content: "";
+   width: 120px;
+   height: 1px;
+   display: inline-block;
+   background: var(--accent-color);
+   margin: 4px 10px;
+ }
+ 
+ .portfolio-details .portfolio-section-title div {
+   color: var(--accent-color);
+   margin: 0;
+   padding: 0;
+   font-size: 22px;
+   font-weight: 700;
+   font-family: var(--heading-font);
+ }
+
+ .portfolio-details .portfolio-section-title p {
+   padding-top: 10px;
+   font-size: 14px;
+   letter-spacing: 1px;
+ }
+
+.portfolio-details .portfolio-accent  {
+   color: var(--accent-color) !important;
+}
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -1482,8 +1527,8 @@ section,
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+.portfolio-details .portfolio-info h2 {
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -1493,7 +1538,7 @@ section,
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .portfolio-details .portfolio-info ul li+li {
@@ -1504,13 +1549,8 @@ section,
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
 .portfolio-details .portfolio-description p {
-  padding: 0;
+  font-size: 14px;
+   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
