@@ -411,6 +411,10 @@ h6 {
   margin: 0 0 30px 0;
 }
 
+.footer .footer-accent {
+   color: var(--accent-color) !important;
+}
+
 .footer .social-links {
   margin: 0 0 20px 0;
 }
@@ -716,6 +720,10 @@ section,
 .hero .footer-text {
    padding-top: 40px;
    font-size: 14px;
+}
+
+.hero .footer-text i {
+   color: var(--accent-color) !important;
 }
 
 @media (max-width: 768px) {
@@ -1058,6 +1066,10 @@ section,
   display: inline-block;
   font-weight: 600;
   margin-bottom: 5px;
+}
+
+.resume .resume-item .resume-accent  {
+   color: var(--accent-color) !important;
 }
 
 .resume .resume-item ul {
