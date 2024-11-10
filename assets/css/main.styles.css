@@ -14,11 +14,11 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #000000; /* Background color for the entire website, including individual sections */
+  --background-color: #0e141d; /* Background color for the entire website, including individual sections */
   --default-color: #fafafa; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #70c3ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #1a1a1a; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --surface-color: #1c2533; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #1D2C3D; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
@@ -26,8 +26,8 @@
 :root {
   --nav-color: #fafafa;  /* The default color of the main navmenu links */
   --nav-hover-color: #70c3ff; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #1a1a1a; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #1a1a1a; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-mobile-background-color: #1c2533; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #1c2533; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #fafafa; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #70c3ff; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
@@ -35,12 +35,13 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #1a1a1a;
+  --background-color: #1c2533;
   --surface-color: #343434;
 }
 
 .dark-background {
-  --background-color: rgba(15, 15, 15, 0.975);
+  /* --background-color: rgba(15, 15, 15, 0.975); */
+  --background-color: #0e141d !important;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #292929f9;
@@ -294,7 +295,7 @@ h6 {
     color: var(--nav-dropdown-color);
     padding: 10px 20px;
     font-family: var(--nav-font);
-    font-size: 14px;
+    font-size: 13px;
     letter-spacing: 1px;
     font-weight: 500;
     display: flex;
@@ -393,7 +394,8 @@ h6 {
   background-color: var(--background-color);
   font-size: 14px;
   text-align: center;
-  padding: 30px 0;
+  padding-top: 45px;
+  padding-bottom: 35px;
   position: relative;
 }
 
@@ -540,6 +542,7 @@ h6 {
   position: relative;
   font-size: 14px;
   letter-spacing: 1px;
+  padding-bottom: 20px;
 }
 
 .page-title .heading {
@@ -589,7 +592,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 20px 0;
   scroll-margin-top: 100px;
   overflow: clip;
 }
@@ -1031,7 +1034,6 @@ section,
    font-size: 14px;
    letter-spacing: 1px;
  }
- 
 
 .resume .resume-title {
   color: var(--heading-color);
@@ -1099,6 +1101,56 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+.services .services-section-title {
+   padding-left: 0px;
+   padding-bottom: 20px;
+   padding-top: 30px;
+   position: relative;
+   letter-spacing: 1px;
+ }
+ 
+ .services .services-section-title h3 {
+   font-size: 15px;
+   font-weight: 500;
+   padding: 0;
+   line-height: 1px;
+   margin: 0;
+   color: color-mix(in srgb, var(--default-color), transparent 50%);
+   position: relative;
+   text-transform: uppercase;
+ }
+ 
+ .services .services-section-title h3::after {
+   content: "";
+   width: 120px;
+   height: 1px;
+   display: inline-block;
+   background: var(--accent-color);
+   margin: 4px 10px;
+ }
+ 
+ .services .services-section-title div {
+   color: var(--accent-color);
+   margin: 0;
+   padding: 0;
+   font-size: 22px;
+   font-weight: 700;
+   font-family: var(--heading-font);
+ }
+
+ .services .services-section-title p {
+   padding-top: 10px;
+   font-size: 14px;
+   letter-spacing: 1px;
+ }
+
+ @media (min-width: 992px) { /* Adjust to 5 columns on large screens */
+   .col-lg-5th {
+     flex: 0 0 20%; /* Set each column to 20% width */
+     max-width: 20%;
+   }
+ }
+
 .services .service-item {
   background-color: var(--surface-color);
   text-align: center;
@@ -1143,7 +1195,7 @@ section,
 .services .service-item h3 {
   font-weight: 700;
   margin: 10px 0 15px 0;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .services .service-item p {
@@ -1177,6 +1229,10 @@ section,
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
+.service-details .service-accent  {
+   color: var(--accent-color) !important;
+}
+
 .service-details .services-list {
   background-color: var(--surface-color);
   padding: 10px 30px;
