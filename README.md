@@ -9,7 +9,7 @@
    <img src="https://img.shields.io/badge/Framework-Bootstrap-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Framework-Bootstrap">
    <img src="https://img.shields.io/badge/Database-None-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Database-None">
    <img src="https://img.shields.io/badge/License-MIT-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="License MIT">
-   <img src="https://img.shields.io/badge/Last%20Update-20.10.2024-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Last Update 20.10.2024">
+   <img src="https://img.shields.io/badge/Last%20Update-12.11.2024-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Last Update 12.11.2024">
    <a href="https://ko-fi.com/thenocturnaldevgypsy">
       <img src="https://img.shields.io/badge/Support%20me%20via%20Ko--Fi-%2300416a?logo=ko-fi&logoColor=white&color=%2300416a&textColor=white" alt="Support me via Ko-Fi">
    </a>
@@ -121,8 +121,8 @@ Services and Shops/
 
 Contact/
    ├─ Email Address/
-   ├─ Telegram Bot/
-   └─ GitHub AMA Repo/
+   ├─ GitHub AMA Repot/
+   └─ Link in Bio/
 
 Footer/
   ├─ Copyrights and Notes/
@@ -148,7 +148,7 @@ Footer/
    - HTML files: 
       - `services-shop-hire-me.html`
       - `service-details.html`
-- **Contact**: links to Email Address, Telegram Bot and GitHub AMA Repo
+- **Contact**: links to Email Address, GitHub AMA Repo and Link in Bio
 - **Footer**: Copyrights, Notes and Social Network Details. (except Home (`index.html`))
 
 
@@ -162,7 +162,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1.0.0 | xx.xx.2024 | []() for [PR ]() | feat | - Loaded all the needed vendor libraries in the `assets` directory<br>- Created the needed template (`main.styles.css` and `main.core.js`) using Bootstrap<br>- Done with coding the static page templates<br>- Updated the repo's `README.md` |
+| 1.0.0 | 12.11.2024 | []() for [PR ]() | feat | - Loaded all the needed vendor libraries in the `assets` directory<br>- Created the needed template (`main.styles.css` and `main.core.js`) using Bootstrap<br>- Done with coding the static page templates<br>- Updated the repo's `README.md` |
 
 ## ![SECTION Forking the Repo](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Repo-2471AE?logo=repo-forked&logoColor=white&labelColor=2471AE)
 
