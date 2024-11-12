@@ -1228,7 +1228,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Service Details Section
+# Service and Hire Me Details Section
 --------------------------------------------------------------*/
 .service-details .services-section-title {
    padding-left: 0px;
@@ -1340,6 +1340,16 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
+
+.service-details .hire-details {
+   background-color: var(--surface-color);
+   padding-top: 25px;
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-bottom: 5px;
+   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+   margin-bottom: 30px;
+ }
 
 /*--------------------------------------------------------------
 # Portfolio Section
@@ -1554,3 +1564,14 @@ section,
    padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
+
+.portfolio-details .portfolio-description h2 {
+   font-size: 20px;
+   padding: 0;
+   color: var(--accent-color) !important;
+ }
+
+ .portfolio-details .portfolio-description ul, li {
+   font-size: 14px;
+   color: color-mix(in srgb, var(--default-color), transparent 30%);
+ }
