@@ -1,15 +1,15 @@
 <!-- <p align="center"><img src="/md_assets/octocat.gif" alt="Logo" width="130" height="130"></p> --> 
 <h3 align="center">thenocturnaldevgypsy-io.github.io</h3>
-<p align="center"><em>Personal {static} Webspace of TheNocturnalDevGypsy [ Abegail Bautista Torrendon ]</em></p>
+<p align="center"><em>TheNocturnalDevGypsy : Porfolio and webspace of Abegail Bautista Torrendon</em></p>
 <p align="center"><strong>You like the Repo? Don't forget to 🌟, 👁️, 🔱 and ❤️!</strong></p>
 <p align="center">
    <img src="https://img.shields.io/badge/Purpose-EXPLORING-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Purpose-EXPLORING">
-   <img src="https://img.shields.io/badge/Version-0.0.5-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 0.0.5">
+   <img src="https://img.shields.io/badge/Version-1.0.0-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 1.0.0">
    <img src="https://img.shields.io/badge/Lang-HTML%20|%20CSS%20|%20JavaScript-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Lang-HTML|CSS|JavaScript">
    <img src="https://img.shields.io/badge/Framework-Bootstrap-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Framework-Bootstrap">
    <img src="https://img.shields.io/badge/Database-None-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Database-None">
    <img src="https://img.shields.io/badge/License-MIT-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="License MIT">
-   <img src="https://img.shields.io/badge/Last%20Update-20.10.2024-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Last Update 20.10.2024">
+   <img src="https://img.shields.io/badge/Last%20Update-12.11.2024-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Last Update 12.11.2024">
    <a href="https://ko-fi.com/thenocturnaldevgypsy">
       <img src="https://img.shields.io/badge/Support%20me%20via%20Ko--Fi-%2300416a?logo=ko-fi&logoColor=white&color=%2300416a&textColor=white" alt="Support me via Ko-Fi">
    </a>
@@ -17,7 +17,7 @@
 
 ## ![SECTION About this Repository](https://custom-icon-badges.demolab.com/badge/-About%20this%20Repository-2471AE?logo=repo&logoColor=white&labelColor=2471AE)
 
-`thenocturnaldevgypsy-io.github.io`  is my Public Repo to host the Personal {static} Webspace of TheNocturnalDevGypsy [ Abegail Bautista Torrendon ]
+`thenocturnaldevgypsy-io.github.io`  is my Public Repo to host TheNocturnalDevGypsy : Porfolio and webspace of Abegail Bautista Torrendon
 
 ![SUBSECTION Live URLs](https://custom-icon-badges.demolab.com/badge/-Live%20URLs-24292e?logo=globe&logoColor=white&labelColor=00416a)
 
@@ -47,11 +47,19 @@ PHP version: 8.3.1
 Database client version: libmysql - mysqlnd 8.3.1 
 phpMyAdmin Version information: 5.1.2
 ```
-**Framework and Tools**
+**Framework, Libraries and Tools**
 ```
-- CSS Framework: Bootstrap 5.3.3
-- Icons: Bootstrap Icons 1.11.3 and Lineicons 4.0 (Basic, Free)
-- Font: Ubuntu from Google Fonts
+- Bootstrap 5.3.3 https://github.com/twbs/bootstrap
+- Google Font: Baloo 2 https://fonts.google.com/specimen/Baloo+2?query=baloo
+- Bootstrap Icons https://github.com/twbs/icons
+- FontAwesome 6 Icons (Free) https://github.com/FortAwesome/Font-Awesome
+- AOS (Animate on scroll) https://github.com/michalsnik/aos
+- imagesLoaded https://github.com/desandro/imagesloaded
+- Isotope https://github.com/metafizzy/isotope
+- purecounterjs https://github.com/srexi/purecounterjs
+- Swiper.js https://github.com/nolimits4web/swiper
+- Typed.js https://github.com/mattboldt/typed.js
+- Waypoint.js (No Framework) https://github.com/imakewebthings/waypoints
 ```
 
 ## ![SECTION Folders and Files Structure](https://custom-icon-badges.demolab.com/badge/-Folders%20and%20Files%20Structure-2471AE?logo=file-submodule&logoColor=white&labelColor=2471AE)
@@ -64,7 +72,7 @@ project-root/
 │  │  └─ favicons/     # favicons for the website
 │  ├─ css/             # main directory for storing css files
 │  ├─ js/              # main directory for storing js files
-│  └─ vendor/          # main directory for the libraries used from vendors 
+│  └─ library/         # main directory for the framework and libraries used
 ├─ md_assets/          # assets folder for markdown files (documentation)
 ├─ .gitignore          # files ignored by Git
 ├─ CHANGELOG.md        # project changelog documentation
@@ -74,36 +82,75 @@ project-root/
 | Description | File/s |
 | ------------- | ------------- |
 | Home Page of the template | `index.html` |
-| Main CSS of the template | `assets/css/main-styles.css` |
-| Main JS of the template | `assets/js/main-core.js` |
+| Main CSS of the template | `assets/css/main.styles.css` |
+| Main JS of the template | `assets/js/main.core.js` |
 
-## ![SECTION Contents and Breakdown](https://custom-icon-badges.demolab.com/badge/-Contents%20and%20Breakdown-2471AE?logo=book&logoColor=white&labelColor=2471AE)
+## ![SECTION Sitemap, Contents and Breakdown](https://custom-icon-badges.demolab.com/badge/-Sitemap,%20Contents%20and%20Breakdown-2471AE?logo=map&logoSource=feather&logoColor=white&labelColor=2471AE) 
 
-In progress ...
-<!-- - ✅ Under ...
-- 🚧 Under ...
+```
+Home/
+  ├─ Copyrights and Notes/
+  └─ Social Network Details/ 
 
-| Theme | Number of Variants | Description |
-| ------------- | ------------- | ------------- |
-| [xxx](https://github.com/thenocturnaldevgypsy) | XXX | What was done | -->
+About/
+  ├─ Introduction/
+  ├─ Quick Metrics/
+  ├─ Skills/
+  ├─ Interest/
+  └─ Testimonials/
 
-## ![SECTION Sitemap](https://custom-icon-badges.demolab.com/badge/-Sitemap-2471AE?logo=map&logoSource=feather&logoColor=white&labelColor=2471AE)
+Education/
+  ├─ Formal Education/
+  ├─ Certificates-Licenses/
+  └─ Continuous Learning/
+ 
+Experience/
+  ├─ Project & Product Management, Development & Tech/
+  └─ Academic & Learning Development/
+   
+Portfolio/
+  ├─ Portfolio-Public/
+  │  └─ Portfolio Details/     
+  └─ Portfolio-Private/
+     └─ Portfolio Details/     
+  
+Services and Shops/
+  ├─ Services/
+  │  └─ Service Details/     
+  └─ Hire, Shops and Support/
 
-In progress ...
-<!-- ```
-Home/                         #
-├── Page 1.1/                 # 
-│   ├── Page 1.1.1/           # 
-│   │   └── Page 1.1.1.1/     # 
-│   ├── Page 1.1.2/           #
-│   ├── Page 1.1.3/           #
-│   └── Page 1.1.4/           #
-About Us                      #
-├── Page 2.1/                 # 
-├── Page 2.2/                 # 
-├── Page 2.3/                 # 
-└── Page 2.4/                 # 
-``` -->
+Contact/
+   ├─ Email Address/
+   ├─ GitHub AMA Repot/
+   └─ Link in Bio/
+
+Footer/
+  ├─ Copyrights and Notes/
+  └─ Social Network Details/
+```
+- **Home**: Simple splash screen of the website, Copyrights, Notes and Social Network Details
+   - HTML files: `index.html`
+- **About**: About the site owner
+   - HTML files: `about.html`
+- **Education**: Records of formal education to professional certifications and online courses taken
+   - HTML files: `education.html`
+- **Experience**: Records of project management, product ownership, software development and academia experiences
+   - HTML files: 
+      - `experience-projectmanagement-product-development.html`
+      - `experience-academia-learning.html`
+- **Portfolio**: Portfolio, for Public and Private View
+   - HTML files: 
+      - `portfolio-public.html`
+      - `portfolio-public-type-item-details.html`
+      - `portfolio-private.html`
+      - `portfolio-private-type-item-detail.html`
+- **Services and Shops**: Services offered, hiring and shops details
+   - HTML files: 
+      - `services-shop-hire-me.html`
+      - `service-details.html`
+- **Contact**: links to Email Address, GitHub AMA Repo and Link in Bio
+- **Footer**: Copyrights, Notes and Social Network Details. (except Home (`index.html`))
+
 
 ## ![SECTION Roadmap](https://custom-icon-badges.demolab.com/badge/-Roadmap-2471AE?logo=tasklist&logoColor=white&labelColor=2471AE)
 See the [open issues](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/issues) and the [project](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/projects?query=is%3Aopen)'s Backlog  for the list of proposed features (and known issues).
@@ -115,12 +162,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 0.0.5 | 20.10.2024 | [20542f7](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/commit/20542f706869b7a022c4267da02213e81439a92b) for [PR 2](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/pull/2), [Issue 3](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/issues/3), [ec8ecba](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/commit/ec8ecba86151a22cd6e0d47cf87e1dc596eb2ffa) | fix/feat | - Old GitHub account [@thenocturnaldevgypsy](https://github.com/thenocturnaldevgypsy) got flagged for no reason given, recreated the repo to the new account [@thenocturnaldevgypsy-io](https://github.com/thenocturnaldevgypsy-io) [[PR 2](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/pull/2)]<br>- Renamed the repo from `thenocturnaldevgypsy.github.io` to `thenocturnaldevgypsy-io.github.io`<br>- Redeployed at GitHub Pages, Live URL: https://thenocturnaldevgypsy-io.github.io [[Issue 3](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/issues/3)]<br>- Updated the repo's documentation with the updated GitHub URLS except for the links under `CHANGELOG` [[ec8ecba](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/commit/ec8ecba86151a22cd6e0d47cf87e1dc596eb2ffa)].<br>- Details of the whole migration, see GitHub Project: [Migrating @thenocturnaldevgypsy to @thenocturnaldevgypsy-io](https://github.com/users/thenocturnaldevgypsy-io/projects/1/views/1) |
-
-<!-- ## ![SECTION Forking the Repo](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Repo-24292e?logo=repo-forked&logoColor=white&labelColor=00416a)
-
-If you'd like to create your own AMA repository:
-- Click `Fork` at the top of this page. -->
+| 1.0.0 | 12.11.2024 | []() for [PR ]() | feat | - Loaded all the needed vendor libraries in the `assets` directory<br>- Created the needed template (`main.styles.css` and `main.core.js`) using Bootstrap<br>- Done with coding the static page templates<br>- Updated the repo's `README.md` |
 
 ## ![SECTION Forking the Repo](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Repo-2471AE?logo=repo-forked&logoColor=white&labelColor=2471AE)
 
