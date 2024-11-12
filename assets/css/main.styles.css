@@ -754,37 +754,25 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.about {
+   padding-top: 40px !important;
+   font-size: 14px;
+}
+
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
   color: #70c3ff;
 }
 
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.about .content ul strong {
-  margin-right: 10px;
-}
-
-.about .content ul i {
-  font-size: 16px;
-  margin-right: 5px;
-  color: var(--accent-color);
-  line-height: 0;
-}
-
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
+.stats {
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
 .stats i {
   background-color: var(--surface-color);
   color: var(--accent-color);
@@ -824,12 +812,55 @@ section,
   padding: 0;
   margin: 0;
   font-family: var(--heading-font);
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
+.skills .skills-section-title {
+   padding-left: 11px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   position: relative;
+   letter-spacing: 1px;
+ }
+ 
+ .skills .skills-section-title h3 {
+   font-size: 15px;
+   font-weight: 500;
+   padding: 0;
+   line-height: 1px;
+   margin: 0;
+   color: color-mix(in srgb, var(--default-color), transparent 50%);
+   position: relative;
+   text-transform: uppercase;
+ }
+ 
+ .skills .skills-section-title h3::after {
+   content: "";
+   width: 120px;
+   height: 1px;
+   display: inline-block;
+   background: var(--accent-color);
+   margin: 4px 10px;
+ }
+ 
+ .skills .skills-section-title div {
+   color: var(--accent-color);
+   margin: 0;
+   padding: 0;
+   font-size: 22px;
+   font-weight: 700;
+   font-family: var(--heading-font);
+ }
+
+ .skills .skills-section-title p {
+   padding-top: 10px;
+   font-size: 14px;
+   letter-spacing: 1px;
+ }
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -864,9 +895,65 @@ section,
   background-color: var(--accent-color);
 }
 
+.skills .techstack {
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.skills .techstack i {
+  background-color: var(--surface-color);
+  color: var(--accent-color);
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+  width: 54px;
+  height: 54px;
+  font-size: 24px;
+  border-radius: 50px;
+  border: 2px solid var(--background-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.skills .techstack .techstack-item {
+  background-color: var(--surface-color);
+  margin-top: -27px;
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: 0;
+}
+
+.skills .techstack .techstack-item p {
+  padding-top: 7px;
+  padding-bottom: 10px;
+  margin: 0;
+  font-family: var(--heading-font);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+
+.skills .techstack .techstack-item span {
+   font-size: 14px;
+   padding: 5px 10px;
+   font-weight: 600;
+   color: var(--heading-color);
+   display: inline-block;
+   background-color: var(--background-color);
+   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+   margin-left: 2px;
+   margin-top: 7px;
+ }
+
 /*--------------------------------------------------------------
 # Interests Section
---------------------------------------------------------------*/
+
 .interests .features-item {
   background-color: var(--surface-color);
   display: flex;
@@ -903,10 +990,59 @@ section,
 .interests .features-item:hover h3 a {
   color: var(--accent-color);
 }
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
+.testimonials {
+   padding-bottom: 10px;
+}
+
+.testimonials .testimonials-section-title {
+   padding-left: 11px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   position: relative;
+   letter-spacing: 1px;
+ }
+ 
+ .testimonials .testimonials-section-title h3 {
+   font-size: 15px;
+   font-weight: 500;
+   padding: 0;
+   line-height: 1px;
+   margin: 0;
+   color: color-mix(in srgb, var(--default-color), transparent 50%);
+   position: relative;
+   text-transform: uppercase;
+ }
+ 
+ .testimonials .testimonials-section-title h3::after {
+   content: "";
+   width: 120px;
+   height: 1px;
+   display: inline-block;
+   background: var(--accent-color);
+   margin: 4px 10px;
+ }
+ 
+ .testimonials .testimonials-section-title div {
+   color: var(--accent-color);
+   margin: 0;
+   padding: 0;
+   font-size: 22px;
+   font-weight: 700;
+   font-family: var(--heading-font);
+ }
+
+ .testimonials .testimonials-section-title p {
+   padding-top: 10px;
+   font-size: 14px;
+   letter-spacing: 1px;
+ }
+
+
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -927,7 +1063,7 @@ section,
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
 }
@@ -941,7 +1077,7 @@ section,
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
   color: color-mix(in srgb, var(--accent-color), transparent 50%);
-  font-size: 26px;
+  font-size: 16px;
   line-height: 0;
 }
 
@@ -961,12 +1097,17 @@ section,
 
 .testimonials .testimonial-item p {
   font-style: italic;
+  font-size: 14px;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
   background: var(--surface-color);
   border-radius: 6px;
   position: relative;
   z-index: 1;
+}
+
+.testimonials .testimonial-item br {
+   margin-bottom: 10px;
 }
 
 .testimonials .swiper-wrapper {
