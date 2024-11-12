@@ -162,7 +162,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1.0.0 | 12.11.2024 | []() for [PR ]() | feat | - Loaded all the needed vendor libraries in the `assets` directory<br>- Created the needed template (`main.styles.css` and `main.core.js`) using Bootstrap<br>- Done with coding the static page templates<br>- Updated the repo's `README.md` |
+| 1.0.0 | 12.11.2024 | [4a4796f](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/commit/4a4796f4930206392b32e509132b108da77fa34e) for [PR 5](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/pull/5) | feat | - Loaded all the needed vendor libraries in the `assets` directory<br>- Created the needed template (`main.styles.css` and `main.core.js`) using Bootstrap<br>- Done with coding the static page templates<br>- Updated the repo's `README.md` |
 
 ## ![SECTION Forking the Repo](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Repo-2471AE?logo=repo-forked&logoColor=white&labelColor=2471AE)
 
