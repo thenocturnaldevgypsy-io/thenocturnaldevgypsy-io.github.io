@@ -105,7 +105,7 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 28px;
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
@@ -445,7 +445,7 @@ h6 {
 
 @media (max-width: 768px) {
    .footer h3 {
-      font-size: 17px;
+      font-size: 16px;
    }
    .footer p {
       font-size: 14px;
@@ -551,13 +551,13 @@ h6 {
 }
 
 .page-title .heading h1 {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 700;
   color: #70c3ff;
 }
 
 .page-title .heading h2 {
-   font-size: 17px;
+   font-size: 16px;
  }
 
 .page-title nav {
@@ -585,6 +585,14 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
+@media (max-width: 768px) {
+   .page-title .heading h1 {
+      font-size: 20px;
+   }
+   .page-title .heading h2 {
+      font-size: 16px;
+    }
+}
 /*--------------------------------------------------------------
 # Global Sections
 --------------------------------------------------------------*/
@@ -765,6 +773,12 @@ section,
   color: #70c3ff;
 }
 
+@media (max-width: 768px) {
+   .about .content h2 {
+      font-size: 20px;
+   }
+}
+
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
@@ -815,6 +829,12 @@ section,
   font-size: 14px;
 }
 
+@media (max-width: 768px) {
+   .stats .stats-item span {
+      font-size: 28px;
+   }
+}
+
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
@@ -860,6 +880,15 @@ section,
    font-size: 14px;
    letter-spacing: 1px;
  }
+
+@media (max-width: 768px) {
+   .skills .skills-section-title h3 {
+      font-size: 14px;
+   }
+   .skills .skills-section-title div  {
+      font-size: 19px;
+   }
+}
 
 .skills .progress {
   height: 60px;
@@ -937,7 +966,6 @@ section,
   font-weight: 600;
   color: var(--accent-color);
 }
-
 
 .skills .techstack .techstack-item span {
    font-size: 14px;
@@ -1042,6 +1070,14 @@ section,
    letter-spacing: 1px;
  }
 
+ @media (max-width: 768px) {
+   .testimonials .testimonials-section-title h3 {
+      font-size: 14px;
+   }
+   .testimonials .testimonials-section-title div  {
+      font-size: 19px;
+   }
+}
 
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
@@ -1177,6 +1213,15 @@ section,
    letter-spacing: 1px;
  }
 
+@media (max-width: 768px) {
+   .resume .resume-section-title h3 {
+      font-size: 14px;
+   }
+   .resume .resume-section-title div  {
+      font-size: 19px;
+   }
+}
+
 .resume .resume-title {
   color: var(--heading-color);
   font-size: 26px;
@@ -1284,6 +1329,15 @@ section,
    padding-top: 10px;
    font-size: 14px;
    letter-spacing: 1px;
+ }
+
+ @media (max-width: 768px) {
+   .services .services-section-title h3 {
+      font-size: 14px;
+   }
+   .services .services-section-title div  {
+      font-size: 19px;
+   }
  }
 
  @media (min-width: 992px) { /* Adjust to 5 columns on large screens */
@@ -1492,6 +1546,18 @@ section,
    margin-bottom: 30px;
  }
 
+ @media (max-width: 768px) {
+   .service-details .services-section-title h3 {
+      font-size: 14px;
+   }
+   .service-details .services-section-title div  {
+      font-size: 19px;
+   }
+   .service-details h4 {
+      font-size: 18px;
+   }
+ }
+
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
@@ -1646,7 +1712,7 @@ section,
    padding-top: 10px;
    font-size: 14px;
    letter-spacing: 1px;
- }
+}
 
 .portfolio-details .portfolio-accent  {
    color: var(--accent-color) !important;
@@ -1716,3 +1782,15 @@ section,
    font-size: 14px;
    color: color-mix(in srgb, var(--default-color), transparent 30%);
  }
+
+ @media (max-width: 768px) {
+   .portfolio-details .portfolio-section-title h3 {
+      font-size: 14px;
+   }
+   .portfolio-details .portfolio-section-title div  {
+      font-size: 19px;
+   }
+   .portfolio-details .portfolio-info h2 {
+      font-size: 18px;
+   }
+}
