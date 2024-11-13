@@ -4,7 +4,7 @@
 <p align="center"><strong>You like the Repo? Don't forget to 🌟, 👁️, 🔱 and ❤️!</strong></p>
 <p align="center">
    <img src="https://img.shields.io/badge/Purpose-EXPLORING-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Purpose-EXPLORING">
-   <img src="https://img.shields.io/badge/Version-1.0.0-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 1.0.0">
+   <img src="https://img.shields.io/badge/Version-1.1.0-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 1.1.0">
    <img src="https://img.shields.io/badge/Lang-HTML%20|%20CSS%20|%20JavaScript-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Lang-HTML|CSS|JavaScript">
    <img src="https://img.shields.io/badge/Framework-Bootstrap-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Framework-Bootstrap">
    <img src="https://img.shields.io/badge/Database-None-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Database-None">
@@ -162,7 +162,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1.0.0 | 12.11.2024 | [4a4796f](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/commit/4a4796f4930206392b32e509132b108da77fa34e) for [PR 5](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/pull/5) | feat | - Loaded all the needed vendor libraries in the `assets` directory<br>- Created the needed template (`main.styles.css` and `main.core.js`) using Bootstrap<br>- Done with coding the static page templates<br>- Updated the repo's `README.md` |
+| 1.1.0 | xx.xx.2024 | []() for [PR ]() | feat | - Updated the content of the following pages: <br>- Updated `README.md` and `CHANGELOG.md` of the changes |
 
 ## ![SECTION Forking the Repo](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Repo-2471AE?logo=repo-forked&logoColor=white&labelColor=2471AE)
 
