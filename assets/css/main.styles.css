@@ -1184,7 +1184,7 @@ section,
    padding: 0;
    line-height: 1px;
    margin: 0;
-   color: color-mix(in srgb, var(--default-color), transparent 50%);
+   color: var(--default-color);
    position: relative;
    text-transform: uppercase;
  }
@@ -1245,7 +1245,7 @@ section,
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  color: var(--accent-color);
   margin-bottom: 12px;
 }
 
