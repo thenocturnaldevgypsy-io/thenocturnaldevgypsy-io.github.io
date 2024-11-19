@@ -1422,6 +1422,8 @@ section,
   color: var(--contrast-color);
 }
 
+
+
 /*--------------------------------------------------------------
 # Service and Hire Me Details Section
 --------------------------------------------------------------*/
@@ -1546,6 +1548,20 @@ section,
    margin-bottom: 30px;
  }
 
+.service-details .hire-details i {
+   font-size: 40px;
+}
+
+.service-details .hire-details p {
+   font-size: 14px;
+}
+
+.service-details .hire-details .hire-details-info {
+   font-size: 14px;
+   margin: 0px !important;
+}
+
+
  @media (max-width: 768px) {
    .service-details .services-section-title h3 {
       font-size: 14px;
@@ -1556,7 +1572,29 @@ section,
    .service-details h4 {
       font-size: 18px;
    }
+
+.service-details .hire-details {
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 5px;
+}
+
+   .service-details .hire-details i {
+      font-size: 30px;
+   }
+   
+   .service-details .hire-details p {
+      font-size: 13px;
+   }
+   
+   .service-details .hire-details .hire-details-info {
+      font-size: 13px;
+      margin: 0px !important;
+   }
  }
+
+
 
 /*--------------------------------------------------------------
 # Portfolio Section
