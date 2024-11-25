@@ -1562,8 +1562,9 @@ section,
 }
 
 .service-details .social-icons {
-   margin: 0 0 20px 0;
-   visibility: visible;
+/*    margin: 0 0 20px 0;
+   visibility: visible; */
+   background-color: red;
  }
  
 .service-details .social-icons a {
