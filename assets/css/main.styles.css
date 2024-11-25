@@ -1286,7 +1286,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# Services, Hire and Contact Sections
 --------------------------------------------------------------*/
 .services .services-section-title {
    padding-left: 0px;
@@ -1425,7 +1425,7 @@ section,
 
 
 /*--------------------------------------------------------------
-# Service and Hire Me Details Section
+# Services, Hire and Contact Details Section
 --------------------------------------------------------------*/
 .service-details .services-section-title {
    padding-left: 0px;
@@ -1560,6 +1560,33 @@ section,
    font-size: 14px;
    margin: 0px !important;
 }
+
+.service-details .social-icons {
+   margin: 0 0 20px 0;
+   visibility: visible;
+ }
+ 
+.service-details .social-icons a {
+   font-size: 16px;
+   width: 26px;
+   height: 26px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-left: 2px;
+   padding-top: 2px;
+   background: var(--accent-color);
+   color: var(--contrast-color);
+   margin: 0 4px;
+   text-align: center;
+   transition: 0.3s;
+ }
+ 
+.service-details .social-icons a:hover {
+   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+   text-decoration: none;
+ }
 
 
  @media (max-width: 768px) {
