@@ -68,7 +68,7 @@ At the moment, the repository contains the following structure, where:
 ```
 project-root/
 ├─ assets/             # assets folder for images, css, js and other libraries
-│  ├─ img/             # main directory for storing image files
+│  ├─ images/          # main directory for storing image files
 │  │  └─ favicons/     # favicons for the website
 │  ├─ css/             # main directory for storing css files
 │  ├─ js/              # main directory for storing js files
@@ -89,24 +89,30 @@ project-root/
 
 ```
 Home/
+  ├─ Short Introduction/
   ├─ Copyrights and Notes/
   └─ Social Network Details/ 
 
 About/
   ├─ Introduction/
-  ├─ Quick Metrics/
-  ├─ Skills/
-  ├─ Interest/
+  ├─ Counters/
+  ├─ My Skills, Domain Knowledge/
+  │  ├─ Skill Bars/
+  │  └─ Tech Stack/
   └─ Testimonials/
 
 Education/
   ├─ Formal Education/
-  ├─ Certificates-Licenses/
-  └─ Continuous Learning/
+  ├─ Certificates, Licenses/
+  └─ Online Learning and Code Challenges/
  
-Experience/
-  ├─ Project & Product Management, Development & Tech/
-  └─ Academic & Learning Development/
+Experience
+  ├─ Tech/
+  │  ├─ Recent Project & Product Management, Development & Tech/
+  │  └─ Previous Project & Product Management, Development & Tech/
+  └─ Academia/
+     ├─ Recent Academic & Learning Development/
+     └─ Previous Academic & Learning Development/
    
 Portfolio/
   ├─ Portfolio-Public/
@@ -114,15 +120,15 @@ Portfolio/
   └─ Portfolio-Private/
      └─ Portfolio Details/     
   
-Services and Shops/
-  ├─ Services/
-  │  └─ Service Details/     
-  └─ Hire, Shops and Support/
+Services/  
+  └─ Service Details/
 
-Contact/
-   ├─ Email Address/
-   ├─ GitHub AMA Repot/
-   └─ Link in Bio/
+Hire + Shops + Contact/
+  ├─ Hire and Freelance Details/
+  └─ Contact Details/
+     ├─ Email/
+     ├─ GitHub AMA Repo/
+     └─ Social Media Links/
 
 Footer/
   ├─ Copyrights and Notes/
@@ -136,7 +142,7 @@ Footer/
    - HTML files: `education.html`
 - **Experience**: Records of project management, product ownership, software development and academia experiences
    - HTML files: 
-      - `experience-projectmanagement-product-development.html`
+      - `experience-management-project-product-development.html`
       - `experience-academia-learning.html`
 - **Portfolio**: Portfolio, for Public and Private View
    - HTML files: 
@@ -144,11 +150,12 @@ Footer/
       - `portfolio-public-type-item-details.html`
       - `portfolio-private.html`
       - `portfolio-private-type-item-detail.html`
-- **Services and Shops**: Services offered, hiring and shops details
+- **Services**: Services offered
    - HTML files: 
-      - `services-shop-hire-me.html`
-      - `service-details.html`
-- **Contact**: links to Email Address, GitHub AMA Repo and Link in Bio
+      - `services.html`
+- **Hire + Shops + Contact**: Hiring, shops and contact details
+   - HTML files: 
+      - `hire-and-contact.html`
 - **Footer**: Copyrights, Notes and Social Network Details. (except Home (`index.html`))
 
 
