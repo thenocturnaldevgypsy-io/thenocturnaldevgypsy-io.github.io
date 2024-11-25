@@ -1562,9 +1562,7 @@ section,
 }
 
 .service-details .social-icons {
-/*    margin: 0 0 20px 0;
-   visibility: visible; */
-   background-color: red;
+   margin: 0 0 20px 0;
  }
  
 .service-details .social-icons a {
@@ -1588,7 +1586,6 @@ section,
    background: color-mix(in srgb, var(--accent-color), transparent 20%);
    text-decoration: none;
  }
-
 
  @media (max-width: 768px) {
    .service-details .services-section-title h3 {
