@@ -1838,7 +1838,8 @@ section,
 }
 
 .portfolio-details .portfolio-description h2 {
-   font-size: 20px;
+   font-size: 18px;
+   font-weight: 700;
    padding: 0;
    color: var(--accent-color) !important;
  }
