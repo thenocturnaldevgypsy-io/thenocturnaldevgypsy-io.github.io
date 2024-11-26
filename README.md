@@ -67,17 +67,19 @@ phpMyAdmin Version information: 5.1.2
 At the moment, the repository contains the following structure, where:
 ```
 project-root/
-├─ assets/             # assets folder for images, css, js and other libraries
-│  ├─ images/          # main directory for storing image files
-│  │  └─ favicons/     # favicons for the website
-│  ├─ css/             # main directory for storing css files
-│  ├─ js/              # main directory for storing js files
-│  └─ library/         # main directory for the framework and libraries used
-├─ md_assets/          # assets folder for markdown files (documentation)
-├─ .gitignore          # files ignored by Git
-├─ CHANGELOG.md        # project changelog documentation
-├─ LICENSE             # license file
-└─ README.md           # project documentation
+├─ assets/              # assets folder for images, css, js and other libraries
+│  ├─ images/           # main directory for storing image files
+│  │  ├─ favicons/      # favicons for the website
+│  │  ├─ portfolio/     # portfolio mockup images
+│  │  └─ testimonials/  # testimonial thumbnails
+│  ├─ css/              # main directory for storing css files
+│  ├─ js/               # main directory for storing js files
+│  └─ library/          # main directory for the framework and libraries used
+├─ md_assets/           # assets folder for markdown files (documentation)
+├─ .gitignore           # files ignored by Git
+├─ CHANGELOG.md         # project changelog documentation
+├─ LICENSE              # license file
+└─ README.md            # project documentation
 ```
 | Description | File/s |
 | ------------- | ------------- |
