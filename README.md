@@ -148,10 +148,13 @@ Footer/
       - `experience-academia-learning.html`
 - **Portfolio**: Portfolio, for Public and Private View
    - HTML files: 
-      - `portfolio-public.html`
-      - `portfolio-public-type-item-details.html`
       - `portfolio-private.html`
-      - `portfolio-private-type-item-detail.html`
+      - `portfolio-details-thenocturnaldevgypsy.html`
+      - Templates:
+         - `portfolio-public.html`
+         - `portfolio-public-type-item-details.html`
+         - `portfolio-private.html`
+         - `portfolio-private-type-item-detail.html`
 - **Services**: Services offered
    - HTML files: 
       - `services.html`
@@ -171,7 +174,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1.2.0 | xx.xx.2024 | []() for [PR ]() | feat | - Updated the content of Portfolio section<br>- Updated `README.md` and `CHANGELOG.md` of the changes |
+| 1.2.0 | xx.xx.2024 | []() for [PR ]() | feat | - Updated the content of Portfolio section (for public view, the ones with NDA, will be a different updates)<br>- Updated `README.md` and `CHANGELOG.md` of the changes |
 
 ## ![SECTION Forking the Repo](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Repo-2471AE?logo=repo-forked&logoColor=white&labelColor=2471AE)
 
