@@ -4,7 +4,7 @@
 <p align="center"><strong>You like the Repo? Don't forget to 🌟, 👁️, 🔱 and ❤️!</strong></p>
 <p align="center">
    <img src="https://img.shields.io/badge/Purpose-EXPLORING-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Purpose-EXPLORING">
-   <img src="https://img.shields.io/badge/Version-1.1.0-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 1.1.0">
+   <img src="https://img.shields.io/badge/Version-1.2.0-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 1.2.0">
    <img src="https://img.shields.io/badge/Lang-HTML%20|%20CSS%20|%20JavaScript-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Lang-HTML|CSS|JavaScript">
    <img src="https://img.shields.io/badge/Framework-Bootstrap-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Framework-Bootstrap">
    <img src="https://img.shields.io/badge/Database-None-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Database-None">
@@ -171,7 +171,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1.1.0 | 02.12.2024 | [2c372e6](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/commit/2c372e6e2d560b9b759f46c87cb900d427cae74d) for [PR 7](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/pull/7) | feat | - Updated the content of the following pages: Home, About, Education, Experience: Tech, Experience: Academia, Services, Hire + Shops + Contact<br>- Omitted Portfolio in this update, as the scope is too big, it will be created into another Issue ticket under Feat.<br>- Will be hiding the Portfolio link from all pages temporarily<br>- Updated `README.md` and `CHANGELOG.md` of the changes |
+| 1.2.0 | xx.xx.2024 | []() for [PR ]() | feat | - Updated the content of Portfolio section<br>- Updated `README.md` and `CHANGELOG.md` of the changes |
 
 ## ![SECTION Forking the Repo](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Repo-2471AE?logo=repo-forked&logoColor=white&labelColor=2471AE)
 
