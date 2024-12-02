@@ -4,7 +4,7 @@
 <p align="center"><strong>You like the Repo? Don't forget to 🌟, 👁️, 🔱 and ❤️!</strong></p>
 <p align="center">
    <img src="https://img.shields.io/badge/Purpose-EXPLORING-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Purpose-EXPLORING">
-   <img src="https://img.shields.io/badge/Version-1.0.0-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 1.0.0">
+   <img src="https://img.shields.io/badge/Version-1.1.0-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 1.1.0">
    <img src="https://img.shields.io/badge/Lang-HTML%20|%20CSS%20|%20JavaScript-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Lang-HTML|CSS|JavaScript">
    <img src="https://img.shields.io/badge/Framework-Bootstrap-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Framework-Bootstrap">
    <img src="https://img.shields.io/badge/Database-None-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Database-None">
@@ -67,17 +67,19 @@ phpMyAdmin Version information: 5.1.2
 At the moment, the repository contains the following structure, where:
 ```
 project-root/
-├─ assets/             # assets folder for images, css, js and other libraries
-│  ├─ img/             # main directory for storing image files
-│  │  └─ favicons/     # favicons for the website
-│  ├─ css/             # main directory for storing css files
-│  ├─ js/              # main directory for storing js files
-│  └─ library/         # main directory for the framework and libraries used
-├─ md_assets/          # assets folder for markdown files (documentation)
-├─ .gitignore          # files ignored by Git
-├─ CHANGELOG.md        # project changelog documentation
-├─ LICENSE             # license file
-└─ README.md           # project documentation
+├─ assets/              # assets folder for images, css, js and other libraries
+│  ├─ images/           # main directory for storing image files
+│  │  ├─ favicons/      # favicons for the website
+│  │  ├─ portfolio/     # portfolio mockup images
+│  │  └─ testimonials/  # testimonial thumbnails
+│  ├─ css/              # main directory for storing css files
+│  ├─ js/               # main directory for storing js files
+│  └─ library/          # main directory for the framework and libraries used
+├─ md_assets/           # assets folder for markdown files (documentation)
+├─ .gitignore           # files ignored by Git
+├─ CHANGELOG.md         # project changelog documentation
+├─ LICENSE              # license file
+└─ README.md            # project documentation
 ```
 | Description | File/s |
 | ------------- | ------------- |
@@ -89,24 +91,30 @@ project-root/
 
 ```
 Home/
+  ├─ Short Introduction/
   ├─ Copyrights and Notes/
   └─ Social Network Details/ 
 
 About/
   ├─ Introduction/
-  ├─ Quick Metrics/
-  ├─ Skills/
-  ├─ Interest/
+  ├─ Counters/
+  ├─ My Skills, Domain Knowledge/
+  │  ├─ Skill Bars/
+  │  └─ Tech Stack/
   └─ Testimonials/
 
 Education/
   ├─ Formal Education/
-  ├─ Certificates-Licenses/
-  └─ Continuous Learning/
+  ├─ Certificates, Licenses/
+  └─ Online Learning and Code Challenges/
  
-Experience/
-  ├─ Project & Product Management, Development & Tech/
-  └─ Academic & Learning Development/
+Experience
+  ├─ Tech/
+  │  ├─ Recent Project & Product Management, Development & Tech/
+  │  └─ Previous Project & Product Management, Development & Tech/
+  └─ Academia/
+     ├─ Recent Academic & Learning Development/
+     └─ Previous Academic & Learning Development/
    
 Portfolio/
   ├─ Portfolio-Public/
@@ -114,15 +122,15 @@ Portfolio/
   └─ Portfolio-Private/
      └─ Portfolio Details/     
   
-Services and Shops/
-  ├─ Services/
-  │  └─ Service Details/     
-  └─ Hire, Shops and Support/
+Services/  
+  └─ Service Details/
 
-Contact/
-   ├─ Email Address/
-   ├─ GitHub AMA Repot/
-   └─ Link in Bio/
+Hire + Shops + Contact/
+  ├─ Hire and Freelance Details/
+  └─ Contact Details/
+     ├─ Email/
+     ├─ GitHub AMA Repo/
+     └─ Social Media Links/
 
 Footer/
   ├─ Copyrights and Notes/
@@ -136,7 +144,7 @@ Footer/
    - HTML files: `education.html`
 - **Experience**: Records of project management, product ownership, software development and academia experiences
    - HTML files: 
-      - `experience-projectmanagement-product-development.html`
+      - `experience-management-project-product-development.html`
       - `experience-academia-learning.html`
 - **Portfolio**: Portfolio, for Public and Private View
    - HTML files: 
@@ -144,11 +152,12 @@ Footer/
       - `portfolio-public-type-item-details.html`
       - `portfolio-private.html`
       - `portfolio-private-type-item-detail.html`
-- **Services and Shops**: Services offered, hiring and shops details
+- **Services**: Services offered
    - HTML files: 
-      - `services-shop-hire-me.html`
-      - `service-details.html`
-- **Contact**: links to Email Address, GitHub AMA Repo and Link in Bio
+      - `services.html`
+- **Hire + Shops + Contact**: Hiring, shops and contact details
+   - HTML files: 
+      - `hire-and-contact.html`
 - **Footer**: Copyrights, Notes and Social Network Details. (except Home (`index.html`))
 
 
@@ -162,7 +171,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1.0.0 | 12.11.2024 | [4a4796f](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/commit/4a4796f4930206392b32e509132b108da77fa34e) for [PR 5](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/pull/5) | feat | - Loaded all the needed vendor libraries in the `assets` directory<br>- Created the needed template (`main.styles.css` and `main.core.js`) using Bootstrap<br>- Done with coding the static page templates<br>- Updated the repo's `README.md` |
+| 1.1.0 | xx.xx.2024 | []() for [PR ]() | feat | - Updated the content of the following pages: <br>- Updated `README.md` and `CHANGELOG.md` of the changes |
 
 ## ![SECTION Forking the Repo](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Repo-2471AE?logo=repo-forked&logoColor=white&labelColor=2471AE)
 

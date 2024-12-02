@@ -109,7 +109,7 @@
 
    </head>
 
-   <body class="portfolio-page">
+   <body class="portfolio-details-page">
 
       <!-- Header and Navigation Menu // Start -->
       <header id="header" class="header d-flex align-items-center fixed-top">
@@ -148,9 +148,9 @@
                <div class="container">
                   <div class="row d-flex justify-content-center text-center">
                      <div class="col-lg-8">
-                        <h1>Portfolio</h1>
-                        <h2>A showcase of my professional work, freelance projects, open-source contributions, and experiments</h2>
-                        <p class="mb-0">Please note that this portfolio does not include all of my work due to confidentiality agreements. If you require access to additional projects, feel free to send a request to <a href="mailto:hi@thenocturnaldevgypsy.io" target="_blank">hi@thenocturnaldevgypsy.io</a> </p>
+<!--                         <h1>Portfolio Item Name</h1>
+                        <h2>Portfolio Details</h2>
+                        <p class="mb-0">Something about Portfolio</p> -->
                      </div>
                   </div>
                </div>
@@ -158,144 +158,147 @@
          </div>
          <!-- Page Title // End -->
 
-         <!-- Portfolio Section // Start -->
-         <section id="portfolio" class="portfolio section">
+         <!-- Portfolio Details Section // Start -->
+         <section id="portfolio-details" class="portfolio-details section">
             <div class="container">
+               <div class="row gy-4">
 
-               <!-- Portfolio > Items > Isotope Animation // Start -->
-               <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+                  <!-- Portfolio Details > Swipper // Start -->
+                  <div class="col-lg-8">
+                     <div class="portfolio-details-slider swiper init-swiper">
 
-                  <!-- Portfolio > Items > Isotope Animation > Filter // Start -->
-                  <ul class="portfolio-filters isotope-filters">
-                     <li data-filter="*" class="filter-active">All</li>
-                     <li data-filter=".filter-projprod">Project/Product Management</li>
-                     <li data-filter=".filter-appweb">App/Web</li>
-                     <li data-filter=".filter-uiux">UI/UX</li>
-                     <li data-filter=".filter-socmed">Brand/SMM</li>
-                     <li data-filter=".filter-seo">SEO</li>
-                     <li data-filter=".filter-prints">Prints</li>
-                     <li data-filter=".filter-opensource">Open Source</li>
-                     <li data-filter=".filter-artai">Creative AI</li>
-                     <li data-filter=".filter-nft">NFT</li>
-                  </ul>
-                  <!-- Portfolio > Items > Isotope Animation > Filter // End -->
+                        <!-- Portfolio > Details > Swiper Animation > Setup // Start -->
+                        <script type="application/json" class="swiper-config">
+                           {
+                              "loop": true,
+                              "speed": 600,
+                              "autoplay": {
+                              "delay": 5000
+                              },
+                              "slidesPerView": "auto",
+                              "pagination": {
+                              "el": ".swiper-pagination",
+                              "type": "bullets",
+                              "clickable": true
+                              }
+                           }
+                        </script>
+                        <!-- Portfolio > Details > Swiper Animation > Setup // End -->
 
-                  <!-- Portfolio > Items Container Section // Start -->
-                  <div class="row gy-4 isotope-container">
+                        <!-- Portfolio > Details > Swiper > Preview // Start -->
+                        <div class="swiper-wrapper align-items-center">
 
-                     <!-- Portfolio Item // Start -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-socmed filter-appweb filter-uiux filter-artai filter-seo">
-                        <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/thenocturnaldevgypsy-main.jpg" class="img-fluid" alt="">
-                           <div class="portfolio-info">
-                              <h4>Brand/SMM</h4> <h4>App/Web</h4> <h4>UI/UX</h4> <h4>Creative AI</h4> <h4>SEO</h4>
-                              <p>TheNocturnalDevGypsy</p>
-                              <a href="portfolio-details-thenocturnaldevgypsy.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
+                           <!-- Portfolio > Preview Item // Start -->
+                           <div class="swiper-slide">
+                              <img src="assets/images/portfolio/oiblinsaigon-main.jpg" alt="">
                            </div>
-                        </div>
-                     </div>
-                     <!-- Portfolio Item // End -->
+                           <!-- Portfolio > Preview Item // End -->
 
-                     <!-- Portfolio Item // Start -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-appweb filter-uiux filter-artai filter-seo filter-opensource">
-                        <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/nightfall-main.jpg" class="img-fluid" alt="">
-                           <div class="portfolio-info">
-                              <h4>App/Web</h4> <h4>UI/UX</h4> <h4>Creative AI</h4> <h4>SEO</h4> <h4>Open Source</h4>
-                              <p>Nightfall Bootstrap Template</p>
-                              <a href="portfolio-details-nightfall.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
+                           <!-- Portfolio > Preview Item // Start -->
+                           <div class="swiper-slide">
+                              <img src="assets/images/portfolio/oiblinsaigon-moodboard.jpg" alt="">
                            </div>
-                        </div>
-                     </div>
-                     <!-- Portfolio Item // End -->
+                           <!-- Portfolio > Preview Item // End -->
 
-                     <!-- Portfolio Item // Start -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-appweb filter-uiux filter-artai filter-seo filter-opensource">
-                        <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/gypsyshards-main.jpg" class="img-fluid" alt="">
-                           <div class="portfolio-info">
-                              <h4>App/Web</h4> <h4>UI/UX</h4> <h4>Creative AI</h4> <h4>SEO</h4> <h4>Open Source</h4>
-                              <p>GypsyShards Bootstrap Templates</p>
-                              <a href="portfolio-details-gypsyshards.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
+                           <!-- Portfolio > Preview Item // Start -->
+                           <div class="swiper-slide">
+                              <img src="assets/images/portfolio/oiblinsaigon-facebook.jpg" alt="">
                            </div>
-                        </div>
-                     </div>
-                     <!-- Portfolio Item // End -->
+                           <!-- Portfolio > Preview Item // End -->
 
-                     <!-- Portfolio Item // Start -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-artai filter-nft">
-                        <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/texttoartaitonftcollections-main.jpg" class="img-fluid" alt="">
-                           <div class="portfolio-info">
-                              <h4>Creative AI</h4> <h4>NFT</h4>
-                              <p>Text to Art AI to NFT Collections</p>
-                              <a href="portfolio-details-text-to-art-ai-to-nft.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
+                           <!-- Portfolio > Preview Item // Start -->
+                           <div class="swiper-slide">
+                              <img src="assets/images/portfolio/oiblinsaigon-instagram.jpg" alt="">
                            </div>
-                        </div>
-                     </div>
-                     <!-- Portfolio Item // End -->
+                           <!-- Portfolio > Preview Item // End -->
 
-                     <!-- Portfolio Item // Start -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-projprod filter-appweb filter-uiux filter-socmed filter-seo filter-prints">
-                        <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/dhh-main.jpg" class="img-fluid" alt="">
-                           <div class="portfolio-info">
-                              <h4>Project/Product Management</h4> <h4>App/Web</h4> <h4>UI/UX</h4> <h4>Brand/SMM</h4> <h4>SEO</h4> <h4>Prints</h4>
-                              <p>DHH Law Firm, Vietnam</p>
-                              <a href="portfolio-details-dhh.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
+                           <!-- Portfolio > Preview Item // Start -->
+                           <div class="swiper-slide">
+                              <img src="assets/images/portfolio/oiblinsaigon-beacons.jpg" alt="">
                            </div>
-                        </div>
-                     </div>
-                     <!-- Portfolio Item // End -->
+                           <!-- Portfolio > Preview Item // End -->
 
-                     <!-- Portfolio Item // Start -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-projprod filter-socmed filter-seo filter-prints">
-                        <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/365daysofunknown-main.jpg" class="img-fluid" alt="">
-                           <div class="portfolio-info">
-                              <h4>Project/Product Management</h4> <h4>Brand/SMM</h4> <h4>SEO</h4> <h4>Prints</h4>
-                              <p>365 Days of UNKNOWN, Vietnam</p>
-                              <a href="portfolio-details-365-days-of-unknown.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
+                           <!-- Portfolio > Preview Item // Start -->
+                           <div class="swiper-slide">
+                              <img src="assets/images/portfolio/oiblinsaigon-prints-1.jpg" alt="">
                            </div>
-                        </div>
-                     </div>
-                     <!-- Portfolio Item // End -->
+                           <!-- Portfolio > Preview Item // End -->
 
-                     <!-- Portfolio Item // Start -->
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-socmed filter-seo filter-prints">
-                        <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/oiblinsaigon-main.jpg" class="img-fluid" alt="">
-                           <div class="portfolio-info">
-                              <h4>Brand/SMM</h4> <h4>SEO</h4> <h4>Prints</h4>
-                              <p>Ơi! Blin (Блин)! Saigon, Vietnam</p>
-                              <a href="portfolio-details-oi-blin-saigon.html" title="More Details" class="details-link"><i class="fa-solid fa-circle-info"></i></a>
+                           <!-- Portfolio > Preview Item // Start -->
+                           <div class="swiper-slide">
+                              <img src="assets/images/portfolio/oiblinsaigon-prints-2.jpg" alt="">
                            </div>
-                        </div>
-                     </div>
-                     <!-- Portfolio Item // End -->
+                           <!-- Portfolio > Preview Item // End -->
 
-                     <!-- Portfolio Item // Start 
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-texttoimage">
-                        <div class="portfolio-content h-100">
-                           <img src="assets/images/portfolio/branding-3.jpg" class="img-fluid" alt="">
-                           <div class="portfolio-info">
-                              <h4>AI Text to Image</h4>
-                              <p>Name of the item</p>
-                              <a href="portfolio-public-type-item-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                           <!-- Portfolio > Preview Item // Start -->
+                           <div class="swiper-slide">
+                              <img src="assets/images/portfolio/oiblinsaigon-prints-3.jpg" alt="">
                            </div>
+                           <!-- Portfolio > Preview Item // End -->
+
                         </div>
+                        <!-- Portfolio > Details > Swiper > Preview // End -->
+
+                        <!-- Portfolio > Details > Swiper Animation > Pagination // Start -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Portfolio > Details > Swiper Animation > Pagination // End -->
                      </div>
-                     Portfolio Item // End -->
+                  </div>
+                  <!-- Portfolio Details > Swipper // End -->
+
+                  <!-- Portfolio Details > Record // Start -->
+                  <div class="col-lg-4">
+
+                     <!-- Portfolio Details > Record > Information // Start -->
+                     <div class="portfolio-section-title">
+                        <h3>Portfolio</h3>
+                        <div><span>Ơi! Blin (Блин)! Saigon - Vietnam</span></div>
+                     </div>
+                     <!-- Portfolio Details > Record > Information > Title // End -->
+
+                     <!-- Portfolio Details > Record > Information // Start -->
+                     <div class="portfolio-info">
+                        <h2 class="portfolio-accent">Summary</h2>
+                        <ul>
+                           <li><strong>Under</strong>: bloki.me by Picklesniffers Co. LTD</li>
+                           <li><strong>Coverage</strong>: Brand/SMM, SEO, Prints</li>
+                           <li><strong>Project Month &amp; Year</strong>: December 2020 - October 2023</li>
+                           <li><strong>Status</strong>: Done</li>
+                        </ul>
+                     </div>
+                     <!-- Portfolio Details > Record > Information // End -->
+
+                     <!-- Portfolio Details > Record > Description // Start -->
+                     <div class="portfolio-description">
+                        <h2>Goals and Concern</h2>
+                        <ul>
+                           <li>To establish a recognizable and cohesive brand identity for Ơi! Blin (Блин)!, a small Russian and art café in District 1, Ho Chi Minh City, Vietnam, one of Picklesniffers Co. LTD's ventures</li>
+                           <li>To design visually appealing menus and create effective marketing materials for both social media and print</li>
+                           <li>To build and maintain a strong social media presence, ensuring content is SEO-compliant, user-friendly, and engages the target audience</li>
+                           <li>To increase the café's online visibility through Google Business registration and management</li>
+                        </ul>
+                        <h2>Solutions</h2>
+                        <ul>
+                           <li>Designed a unique logo that reflects the café's Russian and artistic vibe</li>
+                           <li>Developed attractive menu prints and marketing materials for both social media platforms and physical distribution</li>
+                           <li>Managed the café's social media presence on Facebook, Instagram, and Beacons link-in-bio, ensuring consistent branding and customer engagement</li>
+                           <li>Created and maintained the café's Google Business profile to enhance local visibility and credibility</li>
+                           <li>Ensured all social media content and postings were optimized for SEO, improving search engine rankings and customer reach</li>
+                        </ul>
+                        <h2>URLs</h2>
+                        <ul>
+                           <li>Live: <a href="https://www.oi-blin.com/" target="_blank">https://www.oi-blin.com</a></li>
+                        </ul>
+                     </div>
+                     <!-- Portfolio Details > Record > Description // End -->
 
                   </div>
-                  <!-- Portfolio > Items Container Section // End -->
+                  <!-- Portfolio Details > Info // End -->
 
                </div>
-               <!-- Portfolio > Items > Isotope Animation // End -->
-
             </div>
          </section>
-         <!-- Portfolio Section // End -->
+         <!-- Portfolio Details Section // Start -->
 
       </main>
       <!-- Content // End -->
