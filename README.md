@@ -47,7 +47,7 @@ PHP version: 8.3.1
 Database client version: libmysql - mysqlnd 8.3.1 
 phpMyAdmin Version information: 5.1.2
 ```
-**Framework, Libraries and Tools**
+**Frameworks, Libraries and Tools**
 ```
 - Bootstrap 5.3.3 https://github.com/twbs/bootstrap
 - Google Font: Baloo 2 https://fonts.google.com/specimen/Baloo+2?query=baloo
