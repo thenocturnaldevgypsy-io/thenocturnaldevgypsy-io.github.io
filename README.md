@@ -148,8 +148,11 @@ Footer/
       - `experience-academia-learning.html`
 - **Portfolio**: Portfolio, for Public and Private View
    - HTML files: 
-      - `portfolio-private.html`
+      - `portfolio-public.html`
       - `portfolio-details-thenocturnaldevgypsy.html`
+      - `portfolio-details-nightfall.html`
+      - `portfolio-details-dhh.html`
+      - `portfolio-details-text-to-art-ai-to-nft.html`
       - Templates:
          - `portfolio-public.html`
          - `portfolio-public-type-item-details.html`
