@@ -153,6 +153,7 @@ Footer/
       - `portfolio-details-nightfall.html`
       - `portfolio-details-dhh.html`
       - `portfolio-details-text-to-art-ai-to-nft.html`
+      - `portfolio-details-gypsyshards.html`
       - Templates:
          - `portfolio-public.html`
          - `portfolio-public-type-item-details.html`
