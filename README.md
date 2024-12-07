@@ -1,4 +1,4 @@
-<!-- <p align="center"><img src="/md_assets/octocat.gif" alt="Logo" width="130" height="130"></p> --> 
+<p align="center"><img src="md_assets/preview-image.jpg" alt="Logo" width="500"></p>
 <h3 align="center">thenocturnaldevgypsy-io.github.io</h3>
 <p align="center"><em>TheNocturnalDevGypsy : Porfolio and webspace of Abegail Bautista Torrendon</em></p>
 <p align="center"><strong>You like the Repo? Don't forget to 🌟, 👁️, 🔱 and ❤️!</strong></p>
@@ -6,10 +6,10 @@
    <img src="https://img.shields.io/badge/Purpose-EXPLORING-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Purpose-EXPLORING">
    <img src="https://img.shields.io/badge/Version-1.2.0-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Version 1.2.0">
    <img src="https://img.shields.io/badge/Lang-HTML%20|%20CSS%20|%20JavaScript-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Lang-HTML|CSS|JavaScript">
-   <img src="https://img.shields.io/badge/Framework-Bootstrap-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Framework-Bootstrap">
+   <img src="https://img.shields.io/badge/Framework-Bootstrap%20v5.3.3-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Framework-Bootstrap v5.3.3">
    <img src="https://img.shields.io/badge/Database-None-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Database-None">
    <img src="https://img.shields.io/badge/License-MIT-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="License MIT">
-   <img src="https://img.shields.io/badge/Last%20Update-02.12.2024-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Last Update 02.12.2024">
+   <img src="https://img.shields.io/badge/Last%20Update-07.12.2024-%2300416a?logoColor=white&labelColor=%2300416a&color=%2324292e&textColor=white" alt="Last Update 07.12.2024">
    <a href="https://ko-fi.com/thenocturnaldevgypsy">
       <img src="https://img.shields.io/badge/Support%20me%20via%20Ko--Fi-%2300416a?logo=ko-fi&logoColor=white&color=%2300416a&textColor=white" alt="Support me via Ko-Fi">
    </a>
@@ -17,7 +17,7 @@
 
 ## ![SECTION About this Repository](https://custom-icon-badges.demolab.com/badge/-About%20this%20Repository-2471AE?logo=repo&logoColor=white&labelColor=2471AE)
 
-`thenocturnaldevgypsy-io.github.io`  is my Public Repo to host TheNocturnalDevGypsy : Porfolio and webspace of Abegail Bautista Torrendon
+`thenocturnaldevgypsy-io.github.io`  is my Public Repo to host TheNocturnalDevGypsy : Porfolio and webspace of Abegail Bautista Torrendon. This is also to stress test my Free/Open Souce Bootstrap Template that I've authored and maintained: [nightfall-bootstrap-template-personal](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal).
 
 ![SUBSECTION Live URLs](https://custom-icon-badges.demolab.com/badge/-Live%20URLs-24292e?logo=globe&logoColor=white&labelColor=00416a)
 
@@ -129,7 +129,7 @@ Hire + Shops + Contact/
   ├─ Hire and Freelance Details/
   └─ Contact Details/
      ├─ Email/
-     ├─ GitHub AMA Repo/
+     ├─ GitHub Profile AMA Discussion/
      └─ Social Media Links/
 
 Footer/
@@ -178,7 +178,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1.2.0 | xx.xx.2024 | []() for [PR ]() | feat | - Updated the content of Portfolio section (for public view, the ones with NDA, will be a different updates)<br>- Updated `README.md` and `CHANGELOG.md` of the changes |
+| 1.2.0 | 07.12.2024 | []() for [PR ]() | feat | - Updated the content of Portfolio section with the following: _TheNocturnalDevGypsy_, _Nightfall_, _Grypsyshards_, _Text to Art AI to NFT Collections @ uncut.network_ and _DHH Law Firm, Vietnam_. (for the ones with NDA, will be a different updates)<br>- Updated `hire-and-contact.html` to reflect the GitHub Profile AMA Discussion<br>- Updated `README.md` and `CHANGELOG.md` of the changes |
 
 ## ![SECTION Forking the Repo](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Repo-2471AE?logo=repo-forked&logoColor=white&labelColor=2471AE)
 
