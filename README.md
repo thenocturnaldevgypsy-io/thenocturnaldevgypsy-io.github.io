@@ -178,7 +178,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 | Version | Date | Commit | Type | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1.2.0 | 07.12.2024 | []() for [PR ]() | feat | - Updated the content of Portfolio section with the following: _TheNocturnalDevGypsy_, _Nightfall_, _Grypsyshards_, _Text to Art AI to NFT Collections @ uncut.network_ and _DHH Law Firm, Vietnam_. (for the ones with NDA, will be a different updates)<br>- Updated `hire-and-contact.html` to reflect the GitHub Profile AMA Discussion<br>- Updated `README.md` and `CHANGELOG.md` of the changes |
+| 1.2.0 | 07.12.2024 | [a300c99](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/commit/a300c99ab5b6df1e432b9569c5da6f2b0de2ab81) for [PR 10](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/pull/10) | feat | - Updated the content of Portfolio section with the following: _TheNocturnalDevGypsy_, _Nightfall_, _Grypsyshards_, _Text to Art AI to NFT Collections @ uncut.network_ and _DHH Law Firm, Vietnam_. (for the ones with NDA, will be a different updates)<br>- Updated `hire-and-contact.html` to reflect the GitHub Profile AMA Discussion<br>- Updated `README.md` and `CHANGELOG.md` of the changes |
 
 ## ![SECTION Forking the Repo](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Repo-2471AE?logo=repo-forked&logoColor=white&labelColor=2471AE)
 
