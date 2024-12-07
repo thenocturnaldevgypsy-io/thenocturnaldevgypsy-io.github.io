@@ -180,18 +180,14 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 1.2.0 | 07.12.2024 | [a300c99](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/commit/a300c99ab5b6df1e432b9569c5da6f2b0de2ab81) for [PR 10](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/pull/10) | feat | - Updated the content of Portfolio section with the following: _TheNocturnalDevGypsy_, _Nightfall_, _Grypsyshards_, _Text to Art AI to NFT Collections @ uncut.network_ and _DHH Law Firm, Vietnam_. (for the ones with NDA, will be a different updates)<br>- Updated `hire-and-contact.html` to reflect the GitHub Profile AMA Discussion<br>- Updated `README.md` and `CHANGELOG.md` of the changes |
 
-## ![SECTION Forking the Repo](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Repo-2471AE?logo=repo-forked&logoColor=white&labelColor=2471AE)
+## ![SECTION Forking the Template](https://custom-icon-badges.demolab.com/badge/-Forking%20the%20Template-2471AE?logo=repo-forked&logoColor=white&labelColor=2471AE)
 
-If you'd like to use this repo for your own project, I would like to ask a favor from you:
-- Please do 🌟 and 👁️ this repo (or, maybe ❤️ by buying me a ☕ at **Ko-Fi**? :smiling_face_with_tear:).
-- Click `Fork` at the top of this page.
+If you'd like to use the temaplate that I've used for your own project, I would like to ask a favor from you:
+- Please do 🌟 and 👁️ this repo (or, maybe ❤️ by buying me a ☕ at **Ko-Fi**? 
+:smiling_face_with_tear:).
+- Go to [nightfall-bootstrap-template-personal](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal) under my GitHub account.
+- Please do 🌟 and 👁️ the repo (or, maybe ❤️ by buying me a ☕ at **Ko-Fi**?) and click `Fork` at the top of the repo's page.
 - Please be mindful of the [LICENSE](LICENSE.md) applicable
 
-## ![SECTION License](https://custom-icon-badges.demolab.com/badge/-License-2471AE?logo=file-badge&logoColor=white&labelColor=2471AE)
-Distributed under the MIT License by [Abegail Torrendon / thenocturnaldevgypsy](https://github.com/thenocturnaldevgypsy-io).
-- You can freely modify and reuse.
-- The original [LICENSE](LICENSE.md) must be included with copies of this software.
-- Please link back (if you can fork, the better) to this repo. 
-
 ## ![SECTION Get in Touch](https://custom-icon-badges.demolab.com/badge/-Get%20in%20Touch-2471AE?logo=pencil&logoColor=white&labelColor=2471AE)
-I'd love to hear your thoughts on the project and get your suggestions. Feel free to [create new issue](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/issues/new) on this repo or you can also contact me by [creating a new discussion](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io/discussions/new?category=ask-me-anything-ama-and-q-a) at **💬 Ask Me Anything! (AMA and Q&A)** category under my GitHub Profile Repo's Discussions.
+I'd love to hear your thoughts on this project and get your suggestions. Feel free to [create new issue](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/issues/new) on this repo or you can also contact me by [creating a new discussion](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io/discussions/new?category=ask-me-anything-ama-and-q-a) at **💬 Ask Me Anything! (AMA and Q&A)** category under my GitHub Profile Repo's Discussions.
