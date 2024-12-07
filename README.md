@@ -194,4 +194,4 @@ Distributed under the MIT License by [Abegail Torrendon / thenocturnaldevgypsy](
 - Please link back (if you can fork, the better) to this repo. 
 
 ## ![SECTION Get in Touch](https://custom-icon-badges.demolab.com/badge/-Get%20in%20Touch-2471AE?logo=pencil&logoColor=white&labelColor=2471AE)
-I'd love to hear your thoughts on the project and get your suggestions. Feel free to [create new issue](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/issues/new) on this repo or you can also contact me at [my AMA repo](https://github.com/thenocturnaldevgypsy-io/ama-ask-me-anything).
+I'd love to hear your thoughts on the project and get your suggestions. Feel free to [create new issue](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/issues/new) on this repo or you can also contact me by [creating a new discussion](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io/discussions/new?category=ask-me-anything-ama-and-q-a) at **💬 Ask Me Anything! (AMA and Q&A)** category under my GitHub Profile Repo's Discussions.
