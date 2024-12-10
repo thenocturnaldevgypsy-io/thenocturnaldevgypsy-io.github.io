@@ -184,7 +184,7 @@ Below is the latest updates, go to the [Changelog Listing](CHANGELOG.md) for the
 
 If you'd like to use the temaplate that I've used for your own project, I would like to ask a favor from you:
 - Please do 🌟 and 👁️ this repo (or, maybe ❤️ by buying me a ☕ at **Ko-Fi**? 😅).
-- Go to [nightfall-bootstrap-template-personal](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal) under my GitHub account.
+- Go to [nightfall-bootstrap-template-personal](https://github.com/thenocturnaldevgypsy-io/nightfall-bootstrap-template-personal) under my GitHub account's public repos.
 - Please do 🌟 and 👁️ the repo (or, maybe ❤️ by buying me a ☕ at **Ko-Fi**? 😍) and click `Fork` at the top of the repo's page.
 - Please be mindful of the [LICENSE](LICENSE.md) applicable
 
