@@ -167,9 +167,8 @@ Footer/
       - `hire-and-contact.html`
 - **Footer**: Copyrights, Notes and Social Network Details. (except Home (`index.html`))
 
-
 ## ![SECTION Roadmap](https://custom-icon-badges.demolab.com/badge/-Roadmap-2471AE?logo=tasklist&logoColor=white&labelColor=2471AE)
-See the [open issues](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/issues) and the project's [backlog](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/milestones)'s  for the list of proposed features (and known issues).
+See the [open issues](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/issues) and [backlog](https://github.com/thenocturnaldevgypsy-io/thenocturnaldevgypsy-io.github.io/milestones) for the list of proposed features (and known issues).
 
 
 ## ![SECTION Changelog](https://custom-icon-badges.demolab.com/badge/-Changelog-2471AE?logo=log&logoColor=white&labelColor=2471AE)
