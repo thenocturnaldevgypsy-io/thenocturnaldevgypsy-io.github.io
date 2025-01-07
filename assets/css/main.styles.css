@@ -105,7 +105,7 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 28px;
+  font-size: 20px;
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
@@ -113,6 +113,12 @@ h6 {
 
 .scrolled .header {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+   .header .logo h1 {
+      font-size: 16px;
+    }
 }
 
 /* Global Header on Scroll
@@ -683,22 +689,30 @@ section,
 .hero h2 {
   margin: 0;
   padding-top: 20px;
-  padding-bottom: 5px;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 700;
-  /* font-weight: 700; */
+}
+
+.hero h2 span {
+   font-size: 14px;
 }
 
 .hero h3 {
    margin: 0;
-   padding-bottom: 15px;
+   padding-bottom: 25px;
    font-size: 20px;
    color: var(--accent-color) !important;
  }
 
+.hero .info-text {
+   font-size: 14px;
+   color: var(--accent-color) !important;
+}
+
 .hero p {
-  margin: 5px 0 0 0;
-  font-size: 25px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-size: 30px;
 }
 
 .hero p span {
@@ -741,16 +755,17 @@ section,
 @media (max-width: 768px) {
   .hero h2 {
     margin-top: 60px;
-    padding-bottom: 10px;
     font-size: 20px;
   }
 
   .hero h3 {
-   font-size: 14px;
+   margin-top: 20px;
+   font-size: 16px;
  }
 
   .hero p {
-    font-size: 13px;
+    font-size: 14px;
+    padding-bottom: 20px;
   }
 
   .hero .footer-text {
