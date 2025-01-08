@@ -706,7 +706,7 @@ section,
 
 .hero .info-text {
    font-size: 14px;
-   color: var(--accent-color) !important;
+   /* color: var(--accent-color) !important; */
 }
 
 .hero p {
