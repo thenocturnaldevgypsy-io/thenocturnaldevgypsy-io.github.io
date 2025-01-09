@@ -116,9 +116,9 @@ h6 {
 }
 
 @media (max-width: 768px) {
-   .header .logo h1 {
-      font-size: 16px;
-    }
+  .header .logo h1 {
+    font-size: 16px;
+  }
 }
 
 /* Global Header on Scroll
@@ -420,7 +420,7 @@ h6 {
 }
 
 .footer .footer-accent {
-   color: var(--accent-color) !important;
+  color: var(--accent-color) !important;
 }
 
 .footer .social-links {
@@ -450,16 +450,18 @@ h6 {
 }
 
 @media (max-width: 768px) {
-   .footer h3 {
-      font-size: 16px;
-   }
-   .footer p {
-      font-size: 14px;
-   }
-   .footer .social-links {
-      margin: 0 0 43px 0;
-    }
- }
+  .footer h3 {
+    font-size: 16px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+
+  .footer .social-links {
+    margin: 0 0 43px 0;
+  }
+}
 
 /*--------------------------------------------------------------
 # Preloader
@@ -592,12 +594,13 @@ h6 {
 }
 
 @media (max-width: 768px) {
-   .page-title .heading h1 {
-      font-size: 20px;
-   }
-   .page-title .heading h2 {
-      font-size: 16px;
-    }
+  .page-title .heading h1 {
+    font-size: 20px;
+  }
+  
+  .page-title .heading h2 {
+    font-size: 16px;
+  }
 }
 /*--------------------------------------------------------------
 # Global Sections
@@ -612,7 +615,6 @@ section,
 }
 
 @media (max-width: 1199px) {
-
   section,
   .section {
     scroll-margin-top: 66px;
@@ -688,7 +690,7 @@ section,
 
 .hero h2 {
   margin: 0;
-  padding-top: 20px;
+  padding-top: 400px;
   font-size: 30px;
   font-weight: 700;
 }
@@ -699,14 +701,13 @@ section,
 
 .hero h3 {
    margin: 0;
-   padding-bottom: 25px;
+   padding-bottom: 30px;
    font-size: 20px;
    color: var(--accent-color) !important;
  }
 
 .hero .info-text {
    font-size: 14px;
-   /* color: var(--accent-color) !important; */
 }
 
 .hero p {
@@ -754,14 +755,14 @@ section,
 
 @media (max-width: 768px) {
   .hero h2 {
-    margin-top: 60px;
+    padding-top: 80px;
     font-size: 20px;
   }
 
   .hero h3 {
    margin-top: 20px;
    font-size: 16px;
- }
+  }
 
   .hero p {
     font-size: 14px;
@@ -771,7 +772,7 @@ section,
   .hero .footer-text {
    padding-top: 50px;
    font-size: 12px;
-}
+  }
 }
 
 /*--------------------------------------------------------------
@@ -845,9 +846,9 @@ section,
 }
 
 @media (max-width: 768px) {
-   .stats .stats-item span {
-      font-size: 28px;
-   }
+  .stats .stats-item span {
+    font-size: 28px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -897,12 +898,13 @@ section,
  }
 
 @media (max-width: 768px) {
-   .skills .skills-section-title h3 {
-      font-size: 14px;
-   }
-   .skills .skills-section-title div  {
-      font-size: 19px;
-   }
+  .skills .skills-section-title h3 {
+    font-size: 14px;
+  }
+
+  .skills .skills-section-title div  {
+    font-size: 19px;
+  }
 }
 
 .skills .progress {
@@ -1086,12 +1088,13 @@ section,
  }
 
  @media (max-width: 768px) {
-   .testimonials .testimonials-section-title h3 {
-      font-size: 14px;
-   }
-   .testimonials .testimonials-section-title div  {
-      font-size: 19px;
-   }
+  .testimonials .testimonials-section-title h3 {
+    font-size: 14px;
+  }
+
+  .testimonials .testimonials-section-title div  {
+    font-size: 19px;
+  }
 }
 
 .testimonials .testimonials-carousel,
@@ -1229,12 +1232,13 @@ section,
  }
 
 @media (max-width: 768px) {
-   .resume .resume-section-title h3 {
-      font-size: 14px;
-   }
-   .resume .resume-section-title div  {
-      font-size: 19px;
-   }
+  .resume .resume-section-title h3 {
+    font-size: 14px;
+  }
+
+  .resume .resume-section-title div  {
+    font-size: 19px;
+  }
 }
 
 .resume .resume-title {
@@ -1266,14 +1270,13 @@ section,
 
 .resume .resume-item h5 {
   font-size: 16px;
-  /* padding: 5px 15px; */
   display: inline-block;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
 .resume .resume-item .resume-accent  {
-   color: var(--accent-color) !important;
+  color: var(--accent-color) !important;
 }
 
 .resume .resume-item ul {
@@ -1304,63 +1307,64 @@ section,
 # Services, Hire and Contact Sections
 --------------------------------------------------------------*/
 .services .services-section-title {
-   padding-left: 0px;
-   padding-bottom: 20px;
-   padding-top: 30px;
-   position: relative;
-   letter-spacing: 1px;
- }
+  padding-left: 0px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  position: relative;
+  letter-spacing: 1px;
+}
  
- .services .services-section-title h3 {
-   font-size: 15px;
-   font-weight: 500;
-   padding: 0;
-   line-height: 1px;
-   margin: 0;
-   color: color-mix(in srgb, var(--default-color), transparent 50%);
-   position: relative;
-   text-transform: uppercase;
- }
+.services .services-section-title h3 {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0;
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  position: relative;
+  text-transform: uppercase;
+}
  
- .services .services-section-title h3::after {
-   content: "";
-   width: 120px;
-   height: 1px;
-   display: inline-block;
-   background: var(--accent-color);
-   margin: 4px 10px;
- }
+.services .services-section-title h3::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: var(--accent-color);
+  margin: 4px 10px;
+}
  
- .services .services-section-title div {
-   color: var(--accent-color);
-   margin: 0;
-   padding: 0;
-   font-size: 22px;
-   font-weight: 700;
-   font-family: var(--heading-font);
- }
+.services .services-section-title div {
+  color: var(--accent-color);
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: var(--heading-font);
+}
 
- .services .services-section-title p {
-   padding-top: 10px;
-   font-size: 14px;
-   letter-spacing: 1px;
- }
+.services .services-section-title p {
+  padding-top: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
 
- @media (max-width: 768px) {
-   .services .services-section-title h3 {
-      font-size: 14px;
-   }
-   .services .services-section-title div  {
-      font-size: 19px;
-   }
- }
+@media (max-width: 768px) {
+  .services .services-section-title h3 {
+    font-size: 14px;
+  }
 
- @media (min-width: 992px) { /* Adjust to 5 columns on large screens */
-   .col-lg-5th {
-     flex: 0 0 20%; /* Set each column to 20% width */
-     max-width: 20%;
-   }
- }
+  .services .services-section-title div  {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 992px) { /* Adjust to 5 columns on large screens */
+  .col-lg-5th {
+    flex: 0 0 20%; /* Set each column to 20% width */
+    max-width: 20%;
+  }
+}
 
 .services .service-item {
   background-color: var(--surface-color);
@@ -1437,55 +1441,53 @@ section,
   color: var(--contrast-color);
 }
 
-
-
 /*--------------------------------------------------------------
 # Services, Hire and Contact Details Section
 --------------------------------------------------------------*/
 .service-details .services-section-title {
-   padding-left: 0px;
-   padding-bottom: 20px;
-   position: relative;
-   letter-spacing: 1px;
- }
+  padding-left: 0px;
+  padding-bottom: 20px;
+  position: relative;
+  letter-spacing: 1px;
+}
  
- .service-details .services-section-title h3 {
-   font-size: 15px;
-   font-weight: 500;
-   padding: 0;
-   line-height: 1px;
-   margin: 0;
-   color: color-mix(in srgb, var(--default-color), transparent 50%);
-   position: relative;
-   text-transform: uppercase;
- }
+.service-details .services-section-title h3 {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0;
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  position: relative;
+  text-transform: uppercase;
+}
  
- .service-details .services-section-title h3::after {
-   content: "";
-   width: 120px;
-   height: 1px;
-   display: inline-block;
-   background: var(--accent-color);
-   margin: 4px 10px;
- }
+.service-details .services-section-title h3::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: var(--accent-color);
+  margin: 4px 10px;
+}
  
- .service-details .services-section-title div {
-   color: var(--accent-color);
-   margin: 0;
-   padding: 0;
-   font-size: 22px;
-   font-weight: 700;
-   font-family: var(--heading-font);
- }
+.service-details .services-section-title div {
+  color: var(--accent-color);
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: var(--heading-font);
+}
 
- .service-details .services-section-title p {
-   padding-top: 10px;
-   font-size: 14px;
-   letter-spacing: 1px;
- }
+.service-details .services-section-title p {
+  padding-top: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
 
 .service-details .service-accent  {
-   color: var(--accent-color) !important;
+  color: var(--accent-color) !important;
 }
 
 .service-details .services-list {
@@ -1604,39 +1606,39 @@ section,
    text-decoration: none;
  }
 
- @media (max-width: 768px) {
-   .service-details .services-section-title h3 {
-      font-size: 14px;
-   }
-   .service-details .services-section-title div  {
-      font-size: 19px;
-   }
-   .service-details h4 {
-      font-size: 18px;
-   }
+@media (max-width: 768px) {
+  .service-details .services-section-title h3 {
+    font-size: 14px;
+  }
 
-.service-details .hire-details {
-   padding-top: 20px;
-   padding-left: 20px;
-   padding-right: 20px;
-   padding-bottom: 5px;
+  .service-details .services-section-title div  {
+    font-size: 19px;
+  }
+ 
+  .service-details h4 {
+    font-size: 18px;
+  }
+
+  .service-details .hire-details {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+  }
+
+  .service-details .hire-details i {
+    font-size: 30px;
+  }
+   
+  .service-details .hire-details p {
+    font-size: 13px;
+  }
+   
+  .service-details .hire-details .hire-details-info {
+    font-size: 13px;
+    margin: 0px !important;
+  }
 }
-
-   .service-details .hire-details i {
-      font-size: 30px;
-   }
-   
-   .service-details .hire-details p {
-      font-size: 13px;
-   }
-   
-   .service-details .hire-details .hire-details-info {
-      font-size: 13px;
-      margin: 0px !important;
-   }
- }
-
-
 
 /*--------------------------------------------------------------
 # Portfolio Section
@@ -1753,49 +1755,49 @@ section,
 # Portfolio Details Section
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-section-title {
-   padding-left: 0px;
-   padding-bottom: 20px;
-   position: relative;
-   letter-spacing: 1px;
- }
+  padding-left: 0px;
+  padding-bottom: 20px;
+  position: relative;
+  letter-spacing: 1px;
+}
  
- .portfolio-details .portfolio-section-title h3 {
-   font-size: 15px;
-   font-weight: 500;
-   padding: 0;
-   line-height: 1px;
-   margin: 0;
-   color: color-mix(in srgb, var(--default-color), transparent 50%);
-   position: relative;
-   text-transform: uppercase;
- }
+.portfolio-details .portfolio-section-title h3 {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0;
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  position: relative;
+  text-transform: uppercase;
+}
  
- .portfolio-details .portfolio-section-title h3::after {
-   content: "";
-   width: 120px;
-   height: 1px;
-   display: inline-block;
-   background: var(--accent-color);
-   margin: 4px 10px;
- }
+.portfolio-details .portfolio-section-title h3::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: var(--accent-color);
+  margin: 4px 10px;
+}
  
- .portfolio-details .portfolio-section-title div {
-   color: var(--accent-color);
-   margin: 0;
-   padding: 0;
-   font-size: 22px;
-   font-weight: 700;
-   font-family: var(--heading-font);
- }
+.portfolio-details .portfolio-section-title div {
+  color: var(--accent-color);
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: var(--heading-font);
+}
 
- .portfolio-details .portfolio-section-title p {
-   padding-top: 10px;
-   font-size: 14px;
-   letter-spacing: 1px;
+.portfolio-details .portfolio-section-title p {
+  padding-top: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .portfolio-details .portfolio-accent  {
-   color: var(--accent-color) !important;
+  color: var(--accent-color) !important;
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -1848,30 +1850,32 @@ section,
 
 .portfolio-details .portfolio-description p {
   font-size: 14px;
-   padding: 0;
+  padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
 .portfolio-details .portfolio-description h2 {
-   font-size: 18px;
-   font-weight: 700;
-   padding: 0;
-   color: var(--accent-color) !important;
- }
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0;
+  color: var(--accent-color) !important;
+}
 
- .portfolio-details .portfolio-description ul, li {
-   font-size: 14px;
-   color: color-mix(in srgb, var(--default-color), transparent 30%);
- }
+.portfolio-details .portfolio-description ul, li {
+  font-size: 14px;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
 
- @media (max-width: 768px) {
-   .portfolio-details .portfolio-section-title h3 {
-      font-size: 14px;
-   }
-   .portfolio-details .portfolio-section-title div  {
-      font-size: 19px;
-   }
-   .portfolio-details .portfolio-info h2 {
-      font-size: 18px;
-   }
+@media (max-width: 768px) {
+  .portfolio-details .portfolio-section-title h3 {
+    font-size: 14px;
+  }
+
+  .portfolio-details .portfolio-section-title div  {
+    font-size: 19px;
+  }
+
+  .portfolio-details .portfolio-info h2 {
+    font-size: 18px;
+  }
 }
